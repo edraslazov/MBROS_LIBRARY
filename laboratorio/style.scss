@@ -1,0 +1,50 @@
+@import 'botones';
+
+
+.buttons{
+    width: auto;
+    height: $mbros-altura;
+    display: grid;
+  }
+  
+  //boton bloqueado 
+  .btn1{
+    width: $mbros-tamaño-peque;
+    height: $mbros-altura;
+    background-color: $mbros-color-blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-bottom: 3px solid;
+    cursor: not-allowed;
+    display: block;
+    margin-bottom: $mbros-margin;
+    border-radius: $mbros-border;
+  }
+  //boton sin sombra
+  .btn2{
+    width: $mbros-tamaño-mediano;
+    height: $mbros-altura;
+    background-color: $mbros-color-naranja;
+    transition-duration: 0.4s;
+    margin-bottom: $mbros-margin;
+    border-radius: $mbros-border;
+    
+  //boton con tamaño de 300px de largo y 40px de ancho 
+  }
+  .btn3{
+    width: $mbros-tamaño-normal;
+    height: $mbros-altura;
+    background-color: $mbros-color-red;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-bottom: $mbros-margin;
+  }
+  //boton largo que muestra sombra cada uno con distinto color 
+  .btn4{
+    width: $mbros-tamaño-grande;
+    height: $mbros-altura;
+    background-color: $mbros-color-rosa;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-bottom: $mbros-margin;
+    border-radius: $mbros-border;
+  }
+
+  @import 'redondear-elementos'

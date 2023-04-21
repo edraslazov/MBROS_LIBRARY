@@ -1,0 +1,89 @@
+//COLORES SUAVES
+$mb-suave1:rgb(192, 88, 88);
+$mb-suave2: rgb(185, 232, 135);
+$mb-suave3: rgb(253, 229, 136);
+$mb-suave4: rgb(245, 166, 157);
+$mb-suave5: rgb(160, 152, 246);
+//COLORES FUERTES
+$mb-fuerte1:rgb(255, 0, 0);
+$mb-fuerte2: rgb(0, 255, 0);
+$mb-fuerte3: rgb(255, 255, 0);
+$mb-fuerte4: rgb(255, 0, 255);
+$mb-fuerte5: rgb(0, 255, 255);
+//COLORES NEUT
+$mb-neutro1:rgb(255, 255, 255);
+$mb-neutro2: rgb(0, 0, 0);
+$mb-neutro3: rgb(128, 128, 128);
+$mb-neutro4: rgb(192, 192, 192);
+$mb-neutro5: rgb(128, 0, 0);
+$mb-neutro6: rgb(128, 128, 0);
+$mb-neutro7: rgb(0, 128, 0);
+$mb-neutro8: rgb(128, 0, 128);
+$mb-neutro9: rgb(0, 128, 128);
+$mb-neutro10: rgb(0, 0, 128);
+
+//SUAVES
+.mb-suave-rojo{
+    background-color: $mb-suave1;
+}
+.mb-suave-verde{
+    background-color: $mb-suave2;
+}
+.mb-suave-amarillo{
+    background-color: $mb-suave3;
+}
+.mb-suave-rosado{
+    background-color: $mb-suave4;
+}
+.mb-suave-morado{
+    background-color: $mb-suave5;
+}
+//FUERTES
+.mb-fuerte-rojo{
+    background-color: $mb-fuerte1;
+}
+.mb-fuerte-verde{
+    background-color: $mb-fuerte2;
+}
+.mb-fuerte-amarillo{
+    background-color: $mb-fuerte3;
+}
+.mb-fuerte-rosado{
+    background-color: $mb-fuerte4;
+}
+.mb-fuerte-celeste{
+    background-color: $mb-fuerte5;
+}
+//NEUTROS
+.mb-neutro-blanco{
+    background-color: $mb-neutro1;
+}
+.mb-neutro-negro{
+    background-color: $mb-neutro2;
+}
+.mb-neutro-gris{
+    background-color: $mb-neutro3;
+}
+.mb-neutro-grisdos{
+    background-color: $mb-neutro4;
+}
+.mb-neutro-rojom{
+    background-color: $mb-neutro5;
+}
+.mb-neutro-verdem{
+    background-color: $mb-neutro6;
+}
+.mb-neutro-verde{
+    background-color: $mb-neutro7;
+}
+.mb-neutro-morado{
+    background-color: $mb-neutro8;
+}
+.mb-neutro-menta{
+    background-color: $mb-neutro9;
+}
+.mb-neutro-azul{
+    background-color: $mb-neutro10;
+}
+
+
