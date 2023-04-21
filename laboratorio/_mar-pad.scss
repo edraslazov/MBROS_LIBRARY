@@ -1,0 +1,77 @@
+// Definir variable para los valores de los margenes
+$margin-values: 1px to 100px;
+
+// Crear mixin para los margenes
+@mixin margin($top: null, $right: null, $bottom: null, $left: null) {
+  @if $top {
+    margin-top: $top;
+  }
+  @if $right {
+    margin-right: $right;
+  }
+  @if $bottom {
+    margin-bottom: $bottom;
+  }
+  @if $left {
+    margin-left: $left;
+  }
+}
+
+// Crear clases para cada valor de los margenes
+@for $i from 1 through 100 {
+  $value: $i + px;
+  .m-#{$i} {
+    @include margin($value);
+  }
+  .mt-#{$i} {
+    @include margin($value, null, null, null);
+  }
+  .mr-#{$i} {
+    @include margin(null, $value, null, null);
+  }
+  .mb-#{$i} {
+    @include margin(null, null, $value, null);
+  }
+  .ml-#{$i} {
+    @include margin(null, null, null, $value);
+  }
+}
+
+// Definir variable para los valores de los paddings
+$padding-values: 1px to 100px;
+
+// Crear mixin para los paddings
+@mixin padding($top: null, $right: null, $bottom: null, $left: null) {
+  @if $top {
+    padding-top: $top;
+  }
+  @if $right {
+    padding-right: $right;
+  }
+  @if $bottom {
+    padding-bottom: $bottom;
+  }
+  @if $left {
+    padding-left: $left;
+  }
+}
+
+// Crear clases para cada valor de los paddings
+@for $i from 1 through 400 {
+  $value: $i + px;
+  .p-#{$i} {
+    @include padding($value);
+  }
+  .pt-#{$i} {
+    @include padding($value, null, null, null);
+  }
+  .pr-#{$i} {
+    @include padding(null, $value, null, null);
+  }
+  .pb-#{$i} {
+    @include padding(null, null, $value, null);
+  }
+  .pl-#{$i} {
+    @include padding(null, null, null, $value);
+  }
+}

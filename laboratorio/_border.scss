@@ -1,0 +1,43 @@
+// Estilos de borde
+$border-styles: (
+  none: none,
+  solid: solid,
+  dashed: dashed,
+  dotted: dotted,
+  double: double,
+  groove: groove,
+  ridge: ridge,
+  inset: inset,
+  outset: outset,
+);
+
+
+// Tamaños de borde
+$border-sizes: ();
+@for $i from 1 through 10 {
+  $border-sizes: append($border-sizes, #{$i}px);
+}
+
+@function border-utilities($prefix: 'border') {
+  $utilities: ();
+  @each $style, $value in $border-styles {
+    @each $size in $border-sizes {
+      $class: '#{$prefix}-#{$style}-#{$size}';
+      $utilities: map-merge($utilities, ( $class: ( border: $size $value ) ) );
+    }
+  }
+  @return $utilities;
+}
+
+// Genera las clases de utilidad
+$border-utilities: border-utilities();
+
+// Agrega las clases de utilidad como estilos a tu archivo Sass
+@each $selector, $styles in $border-utilities {
+  .#{$selector} {
+    @each $property, $value in $styles {
+      #{$property}: $value;
+    }
+  }
+}
+
