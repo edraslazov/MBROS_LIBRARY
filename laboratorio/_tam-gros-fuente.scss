@@ -1,0 +1,22 @@
+$font-sizes: 1px;
+
+@while $font-sizes <= 50px {
+  $font-sizes: $font-sizes + 1px;
+  
+  $font-families: (
+    "Helvetica Neue",
+    "Arial",
+    "Verdana",
+    "Georgia",
+    "Times New Roman"
+  );
+  
+  @for $i from 1 through length($font-families) {
+    $font-family: nth($font-families, $i);
+    
+    .font-#{$font-family}-#{$font-sizes} {
+      font-family: $font-family;
+      font-size: $font-sizes;
+    }
+  }
+}
