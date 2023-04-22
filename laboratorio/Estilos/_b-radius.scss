@@ -1,7 +1,7 @@
 $border-radius-steps: 50;
 
 @for $i from 1 through $border-radius-steps {
-  .br-#{$i} {
+  .mb-br-#{$i} {
     $border-radius-value: $i * 1%; // Se multiplica por 1% para obtener un valor en porcentaje
     border-radius: $border-radius-value;
   }

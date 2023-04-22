@@ -14,7 +14,7 @@ $font-sizes: 1px;
   @for $i from 1 through length($font-families) {
     $font-family: nth($font-families, $i);
     
-    .font-#{$font-family}-#{$font-sizes} {
+    .mb-font-#{$font-family}-#{$font-sizes} {
       font-family: $font-family;
       font-size: $font-sizes;
     }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Estilos/style.css">
+</head>
+<body>
+
+    
+<!-- esto so lor margin -->
+<!-- Utilizar las clases creadas en el archivo .scss -->
+<div class=" m-56 bg-amarillo " style="width: 600px; height: 200px; " ><p class="color-red">Este elemento tiene un margen de 10px en todas las direcciones.</p></div>
+<div class="mt-70 ml-80 mr-30 ">Este elemento tiene un margen de 20px en la parte superior y 5px en la parte izquierda.</div> 
+<!-- padding -->
+<!-- Utilizar las clases creadas en el archivo .scss -->
+<div class="pt-90 pl-80">Este elemento tiene un padding de 10px en todas las direcciones.</div>
+<div class="pt-90 pl-5">Este elemento tiene un padding de 20px en la parte superior y 5px en la parte izquierda.</div>
+<br>
+<!-- border -->
+<div class="border-dotted-10px ">Border Solid 5px</div><br>
+<!-- <div  class="border-solid-3px">Border Dashed 10px</div><br>
+<div  class="border-double-8px">Border Double 8px</div> -->
+<!-- botones -->
+
+  <div><button class="btn3 border-solid-4px br-7 ">PEQUEÑO</button></div>
+
+
+  <div style="width: 500px; height: 500px; background-color: yellow;"  class=" border-solid-10px  br-50 "  >
+     <h2 class="pl-170 pt-70" >me la pelan</h2>
+     <div class="pl-100 pt-70"> <button class="btn3 pl-10 " >pequeño</button></div>
+     
+  </div>
+  <br>
+  <!-- <div class="br-40% "  style="width: 400px; height: 300px; background-color: aqua;">Contenido con border radius del 41%</div> -->
+  <br>
+
+ 
+
+  <!-- <div class="br-5%">Border radius de 5%</div>
+<div class="br-20%">Border radius de 20%</div> -->
+
+<div style="width: 100%; height: 500px; background-color: aqua; " class="flexbox flexbox--row flexbox--justify-between flexbox--align-center br-5">
+  <div style="width: 200px; height: 200px; background-color: yellow;" class="flexbox flexbox--justify-start flexbox--align-center br-50 ">Item 1</div>
+  <div style="width: 200px; height: 200px; background-color: orangered;" class="flexbox flexbox--justify-center flexbox--align-center br-50">Item 2</div>
+  <div style="width: 200px; height: 200px; ;" class="flexbox flexbox--justify-center   bg-purpura">Item 3</div>
+</div>
+
+
+<p style="width: 500px; height: 100px;" class="bg-amarillo shadow-10">1</p>
+<p style="width: 500px; height: 100px;" class="bg-amarillo hide">2</p>
+<p style="width: 500px; height: 100px;" class="bg-amarillo invisible">3</p>
+<p style="width: 500px; height: 100px;" class="bg-amarillo">4</p>
+<p style="width: 500px; height: 100px;" class="bg-amarillo ">5</p>
+
+<ul class="flexbox flexbox--justify-between ">
+  <li class=" inline bg-purpura pl-50 pr-50  ">1</li>
+  <li class=" inline bg-purpura pl-50 pr-50 ">2</li>
+  <li class=" inline bg-purpura pl-50 pr-50 ">3</li>
+  <li class=" inline bg-purpura pl-50 pr-50 ">4</li>
+  <li class=" inline bg-purpura pl-50 pr-50 ">5</li>
+</ul>
+
+<div style="width: 300px; height: 300px;" class="bg-amarillo border-solid-7px br-50 flexbox flexbox--justify-center flexbox--align-center"><h1 class="color-red ">dhamdmamd</h1></div>
+    
+</body>
+</html>
+<!-- 
+$paddingDirection:('right','left','top','bottom');
+$paddingLength:(15,30,45,50);
+// if you only wants to use "padding" without postfix
+@each $len in $paddingLength {
+  .padding-#{$len} { padding: #{$len}px;}
+}
+
+// if you want to use padding-left, padding-right etc.
+@each $dir in $paddingDirection {
+  @each $len in $paddingLength {
+    .padding-#{$dir}-#{$len} { padding-#{$dir}: #{$len}px;}
+  }
+} -->

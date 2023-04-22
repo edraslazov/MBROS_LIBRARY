@@ -6,7 +6,7 @@
 //   @include shadow($y: 2px, $blur: 4px, $color: rgba(0, 0, 0, 0.2));
 // }
 
- .heavy-shadow {
+ .mb-heavy-shadow {
  @include shadow($x: 0, $y: 10px, $blur: 8px, $spread: -2px, $color: rgba(0, 0, 0, 0.4));
 }
 
@@ -16,7 +16,7 @@
 
 @mixin shadow-range($range) {
     @for $i from 1 through $range {
-      .shadow-#{$i} {
+      .mb-shadow-#{$i} {
         box-shadow: 0 #{$i}px #{$i}px rgba(0, 0, 0, 0.2);
       }
     }

@@ -11,14 +11,13 @@ $border-styles: (
   outset: outset,
 );
 
-
 // Tamaños de borde
 $border-sizes: ();
 @for $i from 1 through 10 {
   $border-sizes: append($border-sizes, #{$i}px);
 }
 
-@function border-utilities($prefix: 'border') {
+@function border-utilities($prefix: 'mb-border') {
   $utilities: ();
   @each $style, $value in $border-styles {
     @each $size in $border-sizes {

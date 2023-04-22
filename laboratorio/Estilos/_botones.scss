@@ -1,0 +1,65 @@
+//TAMAÑOS
+$mb-tamaño-peque: 80px;
+$mb-tamaño-mediano:200px;
+$mb-tamaño-normal: 300px;
+$mb-tamaño-grande: 400px;
+
+$mb-altura:45px;
+//COLORES
+$mb-color-blue: rgb(46, 46, 182)  ;
+$mb-color-red: rgb(226, 62, 62);
+$mb-color-naranja: #eb8c0f;
+$mb-color-rosa: #81e14e;
+//GAP
+$mb-gap: 5px;
+//MARGIN
+$mb-margin:10px;
+//BORDER RADIUS
+$mb-border:15px;
+
+.mb-buttons{
+  width: auto;
+  height: $mb-altura;
+  display: grid;
+}
+
+//boton bloqueado 
+.mb-btn1{
+  width: $mb-tamaño-peque;
+  height: $mb-altura;
+  background-color: $mb-color-blue;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-bottom: 3px solid;
+  cursor: not-allowed;
+  display: block;
+  margin-bottom: $mb-margin;
+  border-radius: $mb-border;
+}
+//boton sin sombra
+.mb-btn2{
+  width: $mb-tamaño-mediano;
+  height: $mb-altura;
+  background-color: $mb-color-naranja;
+  transition-duration: 0.4s;
+  margin-bottom: $mb-margin;
+  border-radius: $mb-border;
+  
+
+//boton con tamaño de 300px de largo y 40px de ancho 
+}
+.mb-btn3{
+  width: $mb-tamaño-normal;
+  height: $mb-altura;
+  background-color: $mb-color-red;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-bottom: $mb-margin;
+}
+//boton largo que muestra sombra cada uno con distinto color 
+.mb-btn4{
+  width: $mb-tamaño-grande;
+  height: $mb-altura;
+  background-color: $mb-color-rosa;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-bottom: $mb-margin;
+  border-radius: $mb-border;
+}

@@ -20,19 +20,19 @@ $margin-values: 1px to 100px;
 // Crear clases para cada valor de los margenes
 @for $i from 1 through 100 {
   $value: $i + px;
-  .m-#{$i} {
+  .mb-m-#{$i} {
     @include margin($value);
   }
-  .mt-#{$i} {
+  .mb-mt-#{$i} {
     @include margin($value, null, null, null);
   }
-  .mr-#{$i} {
+  .mb-mr-#{$i} {
     @include margin(null, $value, null, null);
   }
-  .mb-#{$i} {
+  .mb-mb-#{$i} {
     @include margin(null, null, $value, null);
   }
-  .ml-#{$i} {
+  .mb-ml-#{$i} {
     @include margin(null, null, null, $value);
   }
 }
@@ -59,19 +59,19 @@ $padding-values: 1px to 100px;
 // Crear clases para cada valor de los paddings
 @for $i from 1 through 400 {
   $value: $i + px;
-  .p-#{$i} {
+  .mb-p-#{$i} {
     @include padding($value);
   }
-  .pt-#{$i} {
+  .mb-pt-#{$i} {
     @include padding($value, null, null, null);
   }
-  .pr-#{$i} {
+  .mb-pr-#{$i} {
     @include padding(null, $value, null, null);
   }
-  .pb-#{$i} {
+  .mb-pb-#{$i} {
     @include padding(null, null, $value, null);
   }
-  .pl-#{$i} {
+  .mb-pl-#{$i} {
     @include padding(null, null, null, $value);
   }
 }

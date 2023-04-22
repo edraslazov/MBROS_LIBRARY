@@ -23,66 +23,83 @@ $mb-neutro9: rgb(0, 128, 128);
 $mb-neutro10: rgb(0, 0, 128);
 
 //SUAVES
-.mb-suave-rojo{
+//COLORES DE LETRA 
+.mb-letrasuave-rojo{
+    color: $mb-suave1;
+}  
+.mb-letrasuave-verde{
+    color: $mb-suave2;
+}
+.mb-letrasuave-amarillo{
+    color: $mb-suave3;
+}
+.mb-letrasuave-rosado{
+    color: $mb-suave4;
+}
+.mb-letrasuave-morado{
+    color: $mb-suave5;
+}
+
+.mb-bgrojo-s{
     background-color: $mb-suave1;
 }
-.mb-suave-verde{
+.mb-bgverde-s{
     background-color: $mb-suave2;
 }
-.mb-suave-amarillo{
+.mb-bgamarillo-s{
     background-color: $mb-suave3;
 }
-.mb-suave-rosado{
+.mb-bgrosado-s{
     background-color: $mb-suave4;
 }
-.mb-suave-morado{
+.mb-bgmorado-s{
     background-color: $mb-suave5;
 }
 //FUERTES
-.mb-fuerte-rojo{
+.mb-bgrojo-f{
     background-color: $mb-fuerte1;
 }
-.mb-fuerte-verde{
+.mb-bgverde-f{
     background-color: $mb-fuerte2;
 }
-.mb-fuerte-amarillo{
+.mb-bgamarillo-f{
     background-color: $mb-fuerte3;
 }
-.mb-fuerte-rosado{
+.mb-bgrosado-f{
     background-color: $mb-fuerte4;
 }
-.mb-fuerte-celeste{
+.mb-bgceleste-f{
     background-color: $mb-fuerte5;
 }
 //NEUTROS
-.mb-neutro-blanco{
+.mb-bgblanco-n{
     background-color: $mb-neutro1;
 }
-.mb-neutro-negro{
+.mb-bgnegro-n{
     background-color: $mb-neutro2;
 }
-.mb-neutro-gris{
+.mb-bggris-n{
     background-color: $mb-neutro3;
 }
-.mb-neutro-grisdos{
+.mb-bggrisdos-n{
     background-color: $mb-neutro4;
 }
-.mb-neutro-rojom{
+.mb-bgrojom-n{
     background-color: $mb-neutro5;
 }
-.mb-neutro-verdem{
+.mb-bgverde-n{
     background-color: $mb-neutro6;
 }
-.mb-neutro-verde{
+.mb-bgverde-n{
     background-color: $mb-neutro7;
 }
-.mb-neutro-morado{
+.mb-bgmorado-n{
     background-color: $mb-neutro8;
 }
-.mb-neutro-menta{
+.mb-bgmenta-n{
     background-color: $mb-neutro9;
 }
-.mb-neutro-azul{
+.mb-bgazul-n{
     background-color: $mb-neutro10;
 }
 

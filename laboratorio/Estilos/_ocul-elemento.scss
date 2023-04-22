@@ -1,0 +1,16 @@
+//esto sirve para ocultar todo el elemento a la clase a la que se le otorgo
+.mb-hide {
+    display: none;
+  }
+  
+  //esto have invisible u oculta dicho contenido pero el espacion siempre se mantiene
+  .mb-invisible {
+    visibility: hidden;
+  }
+  
+  //este funciona para las listas y ordenarlas, si es en la lista completa por ejemplo en el ul
+  //se ordena de forma vertical, pero si se le asigna a cada a cda li se orde horizontal una despues de otra
+  .mb-inline {
+    display: inline;
+  }
+  
