@@ -24,6 +24,10 @@ $mb-neutro8: rgb(128, 0, 128);
 $mb-neutro9: rgb(0, 128, 128);
 $mb-neutro10: rgb(0, 0, 128);
 
+.mb-bg-celeste{
+    background-color: $mb-fuerte5;
+}
+
 //SUAVES
 //COLORES DE LETRA 
 .mb-letraf-rojo{
@@ -46,6 +50,10 @@ $mb-neutro10: rgb(0, 0, 128);
 }
 .mb-letraf-negro{
     color: $mb-fuerte7;
+}
+
+.mb-azul-n{
+    color: $mb-neutro10;
 }
 
 .mb-bgrojo-s{
