@@ -8,7 +8,8 @@ $font-sizes: 1px;
     "Arial",
     "Verdana",
     "Georgia",
-    "Times New Roman"
+    "Times New Roman",
+    
   );
   
   @for $i from 1 through length($font-families) {
