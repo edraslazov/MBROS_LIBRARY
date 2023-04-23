@@ -6,3 +6,10 @@ $border-radius-steps: 50;
     border-radius: $border-radius-value;
   }
 }
+$border-radius-steps: 50;
+
+@for $i from 1 through $border-radius-steps {
+  .mb-brpx-#{$i} {
+    border-radius: #{$i}px;
+  }
+}

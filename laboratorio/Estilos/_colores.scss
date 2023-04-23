@@ -2,14 +2,16 @@
 $mb-suave1:rgb(192, 88, 88);
 $mb-suave2: rgb(185, 232, 135);
 $mb-suave3: rgb(253, 229, 136);
-$mb-suave4: rgb(245, 166, 157);
-$mb-suave5: rgb(160, 152, 246);
+$mb-suave4: rgb(227, 134, 217);
+$mb-suave5: rgb(109, 223, 233);
 //COLORES FUERTES
 $mb-fuerte1:rgb(255, 0, 0);
 $mb-fuerte2: rgb(0, 255, 0);
 $mb-fuerte3: rgb(255, 255, 0);
 $mb-fuerte4: rgb(255, 0, 255);
 $mb-fuerte5: rgb(0, 255, 255);
+$mb-fuerte6:white;
+$mb-fuerte7:black;
 //COLORES NEUT
 $mb-neutro1:rgb(255, 255, 255);
 $mb-neutro2: rgb(0, 0, 0);
@@ -24,20 +26,26 @@ $mb-neutro10: rgb(0, 0, 128);
 
 //SUAVES
 //COLORES DE LETRA 
-.mb-letrasuave-rojo{
-    color: $mb-suave1;
-}  
-.mb-letrasuave-verde{
-    color: $mb-suave2;
+.mb-letraf-rojo{
+    color: $mb-fuerte1;
 }
-.mb-letrasuave-amarillo{
-    color: $mb-suave3;
+.mb-letraf-verde{
+    color: $mb-fuerte2;
 }
-.mb-letrasuave-rosado{
-    color: $mb-suave4;
+.mb-letraf-amarillo{
+    color: $mb-fuerte3;
 }
-.mb-letrasuave-morado{
-    color: $mb-suave5;
+.mb-letraf-rosa{
+    color: $mb-fuerte4;
+}
+.mb-letraf-celeste{
+    color: $mb-fuerte5;
+}
+.mb-letraf-blanco{
+    color: $mb-fuerte6;
+}
+.mb-letraf-negro{
+    color: $mb-fuerte7;
 }
 
 .mb-bgrojo-s{
