@@ -74,6 +74,8 @@ Formulario
 
         </form>
         ```
+        
+        
 Una de las caracteristicas importantes de esta pagina web, es que podemos visualizar y ejemplificar codigo en la pagina, a continuacion se presentan los disntintos temas aplicados .
 
 Clases utilitarias: 
@@ -81,8 +83,9 @@ Las clases utilitarias usadas estan llamadas directamente en la carpeta "Estilos
 
 A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 
+
 # INICIO
-![](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf.jpg?raw=true)
+![img](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf.jpg?raw=true)
 
 # FLEXBOX-END
 ![](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/1db162d3-8502-45b0-8e72-1ee70421457f.jpg?raw=true "imagen/flexbox")
