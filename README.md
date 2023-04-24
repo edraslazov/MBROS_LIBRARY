@@ -14,11 +14,14 @@ Implemeacion en desarrols externos:
 
 ![unnamed](https://user-images.githubusercontent.com/117502426/233875095-91593f48-7279-44b4-88eb-9982ec818820.png)
 
- La libreria MBbros esta es 
+ La libreria MBbros es una libreria creada a nuestra creatividad, inspirandonos en los colores del mundo de Mario Bros.
+ En ella se esncuentran clases para crear elementos, ala vez clases utilarias la cual modifica, crea, para colores etc.
+ 
+ a cauantinuacion se presenta un codigo para crear un elemento lo que es un bton
 
-
+```
 <button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" style="height: 40px; width: 180px; cursor:pointer">NORMAL</button> 
-
+```
 
 
 Este código HTML define un botón con las siguientes características:
