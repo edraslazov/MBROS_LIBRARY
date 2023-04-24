@@ -1,0 +1,1236 @@
+<!--Principal-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mbros Library</title>
+    <link rel="stylesheet" href="/Estilos/style.css">
+    <link rel="stylesheet" href="/Estilos/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="mb-flexbox mb-flexbox--justify-between" style="width: 100%; height: 150px; background-color: rgb(120, 232, 232);">
+    <img src="/Componentes/img/mario logo.png" style="width: 300px; height: 150px;" alt="">
+    <h1 class="mb-flexbox mb-flexbox--justify-end mb-pt-30 mb-letraf-rojo" style="font-family: 'Arbutus', cursive ;">Mbros Library</h1>
+  </header>
+
+  <nav style="width: 100%;"> 
+    <div class="principal3" style="height: 245px;">
+      <div class="nav3">
+          <nav class="navbar3" >
+              <ul class="navbar-nav3">
+                <li class="nav-item3">
+                  <a href="#" class="nav-link3">Inicio</a>
+                </li>
+                <li class="nav-item3">
+                  <a href="#desarrolladores" class="nav-link3">Desarrolladores</a>
+                </li>
+                <li class="nav-item3">
+                  <a href="#" class="nav-link3">Servicios</a>
+                </li>
+                <li class="nav-item3">
+                  <a href="#" class="nav-link3">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+      </div>
+      <div class="img3" style="height: 160px;"></div>
+
+  </nav>
+
+  <div style="width: 100%; height: auto; background-color: aqua;" class="mb-flexbox">
+    <article  style="width: 70%; height: auto; background-color: rgb(237, 237, 167); " >
+      <br>
+      <h1 id="inicio" >INICIO</h1>
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15"> <h2 id="Botones">Botones</h2> 
+        <hr> <br>
+        <p class="mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">El elemento HTML &lt;input type="button"&gt; es una versión específica del elemento que se usa para crear un botón en el que se puede<br>hacer clic sin ningún valor por defecto, es decir, no tiene un comportamiento predeterminado como por ejemplo <br> En HTML5 ha sido reemplazado por el elemento &lt;button&gt; .&lt;input&gt;,&lt;input type="reset"&gt;</p> <br>
+        
+
+       <div class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30 " style="gap: 30px;">
+        <button class="mb-bgrojo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px " style="height: 40px; width: 140px; cursor: not-allowed;">BLOQUEADO</button>
+
+        <button class="mb-bgmorado-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" style="height: 40px; width: 160px; cursor:pointer">SOMBREADO </button>
+
+        <button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" style="height: 40px; width: 180px; cursor:pointer">NORMAL</button>  
+
+        <button class="mb-bgverde-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" style="height: 40px; width: 200px; cursor:pointer"> <a href=""></a>LINK</button>      
+
+    </div> <br><br>
+    <div class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30" style="width: 100%; height: 270px; background-color: black;">
+      
+      <p>
+        <code>     
+            &lt;button class="mb-bgrojo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px " <br>style="height: 40px; width: 140px; cursor: not-allowed;">&gt;BLOQUEADO&lt;/button&gt;<br> 
+            &lt;button class="mb-bgmorado-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" <br>style="height: 40px; width: 160px; cursor:pointer">&gt;SOMBREADO &lt;/button&gt;<br>   
+            &lt;button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" <br>style="height: 40px; width: 180px; cursor:pointer">&gt;NORMAL&lt;/button&gt; <br>    
+            &lt;button class="mb-bgverde-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" <br>style="height: 40px; width: 200px; cursor:pointer">&gt;LINK&lt;/button&gt;<br> 
+          </code>    
+      </p>  
+    </div> <br>
+    <br>   
+      </section>
+      
+      <!--Formularios-->
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15"> 
+        <a href="#inicio">Atras</a><br><br>
+
+        <h2 id="formularios">Formularios</h2>
+        <hr class="mb-letraf-negro">
+        <div> <!-- Form 1-->
+          <p class="mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">
+            <br>
+          <ul>
+            <li>
+              <b> Type Text:</b> Este tipo de input toma un valor de "texto", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Password:</b> Como su nombre lo indica, una entrada con un tipo de contraseña crea una contraseña. Es automáticamente invisible para el usuario, a menos que sea manipulado por JavaScript.  
+            </li>
+          </ul><br>
+          <ul>
+            <li>
+              <b> Type Email:</b> Este tipo de input toma un valor de "correo electrónico", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Submit:</b> Este tipo de input toma un valor de "enviar", por lo que crea un botón de envío.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Button:</b> Este tipo de input toma un valor de "botón", por lo que crea un botón.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Fecha:</b> Es posible que se haya registrado en un sitio web donde solicitó la fecha de un evento determinado. La web probablemente usó una entrada con el valor de tipo establecido "date" para lograr esto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Color:</b> Este tipo de input toma un valor de "color", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Radio:</b> Este tipo de input toma un valor de "radio", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <h2 class="mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">TIPOS DE FORMULARIOS</h2>
+          <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+      
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+      
+          <input type="submit" value="Enviar">
+          
+        </form> 
+      </div>
+      <div style="width: 100%; height: 410px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+        <p>
+          <code>
+            &lt;section class="mb-pl-30 mb-pr-30 mb-mt-15"&gt; <br>
+                &lt;form action=""&gt;<br>
+              &lt;label for="Usuario"&gt;Usuario:&lt;/label&gt;
+              &lt;input type="text" id="Usuario" name="Usuario" required&gt;<br>       
+              &lt;label for="password"&gt;Contraseña:&lt;/label&gt;<br>
+              &lt;input type="password" id="password" name="password" required&gt; <br>   
+                &lt;label for="email"&gt;Email:&lt;/label&gt;
+              &lt;input type="email" id="email" name="email"<br>   required&gt;<br>
+                &lt;label for="fecha"&gt;Fecha:&lt; <br>/label&gt;
+              &lt;input type="date" id="fecha" name="fecha" required&gt
+                &lt;label for="hora"&gt;Hora:&lt;<br>/label&gt;
+              &lt;input type="time" id="hora" name="hora" required&gt;
+                &lt;label for="color"&gt;Color:&lt;<br>/label&gt;
+              &lt;input type="color" id="color" name="color" required&gt;
+                &lt;label for="rango"&gt;Rango:&lt;<br>/label&gt;
+              &lt;input type="range" id="rango" name="rango" required&gt;<br>
+                &lt;label for="telefono"&gt;Telefono:&lt;/label&gt;
+              &lt;input type="tel" id="telefono" name="telefono" required&gt; <br>
+              &lt;input type="submit" value="Enviar"&gt;
+    
+            &lt;/form&gt;
+          &lt;/section&gt;     
+          </code>
+        </p>
+      </div> 
+      </section>
+       <!-- Form 2-->
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15">
+        <body>
+         
+          <form class="formulario" action="#" id="formulario">
+              <div>
+                  <fieldset>
+                      <h2>Contacto</h2>
+                      <span class="required_notification">* Datos requeridos</span></br>
+                      <div>
+                          <label for="nombre">Nombre:</label></br>
+                          <input type="text" name="nombre" placeholder="Nombre" required /></br>
+                      </div>
+                      <div>
+                          <label for="email">Email:</label></br>
+                          <input type="email" name="email" placeholder="example@email.com" required /></br>
+                      </div>
+                      <div>
+                          <label for="website">Sitio web:</label></br>
+                          <input type="url" name="website" placeholder="https://algo.com" required
+                              pattern="(http|https)://.+" /></br>
+                      </div>
+                      <button class="submit" type="submit">Enviar</button></br>
+                  </fieldset>  
+          </form>   
+          
+        </div>
+        <div style="width: 100%; height: 290px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+          <p>
+            <code>
+              &lt;form&gt;<br>
+                &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;<br>
+                &lt;input type="text" id="nombre" name="nombre" required&gt;<br>
+            
+                &lt;label for="apellido"&gt;Apellido:&lt;/label&gt;<br>
+                &lt;input type="text" id="apellido" name="apellido" required&gt;<br>
+            
+                &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+                &lt;input type="email" id="email" name="email" required&gt;<br>
+            
+                &lt;label for="mensaje"&gt;Mensaje:&lt;/label&gt;<br>
+                &lt;textarea id="mensaje" name="mensaje"&gt;&lt;/textarea&gt;<br>
+            
+                &lt;input type="submit" value="Enviar"&gt;
+                
+              &lt;/form&gt;
+              
+            </code>
+          </p>
+        </div> 
+          </body>
+        
+      </section>
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15"> 
+        <form action="">
+          <label for="Usuario">Usuario:</label>
+          <input type="text" id="Usuario" name="Usuario" required>
+            <!--formulario de ingreso de contraseña-->
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required>
+            <!--formulario de ingreso de correo-->
+            <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+            <!--formulario de ingreso de fecha-->
+            <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha" required>
+            <!--formulario de ingreso de hora-->
+            <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora" required>
+            <!--formulario de ingreso de color-->
+            <label for="color">Color:</label>
+          <input type="color" id="color" name="color" required>
+            <!--formulario de ingreso de rango-->
+            <label for="rango">Rango:</label>
+          <input type="range" id="rango" name="rango" required>
+            <!--formulario de ingreso de telefono-->
+            <label for="telefono">Telefono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+          <input type="submit" value="Enviar">
+
+        </form>
+        <div style="width: 100%; height: 550px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+          <p>
+            <code>
+              &lt;form&gt;<br>
+                &lt;label for="Usuario"&gt;Usuario:&lt;/label&gt;<br>
+                &lt;input type="text" id="Usuario" name="Usuario" required&gt;<br>
+                  &lt;!--formulario de ingreso de contraseña--&gt;<br>
+                &lt;label for="password"&gt;Contraseña:&lt;/label&gt;<br>
+                &lt;input type="password" id="password" name="password" required&gt;<br>
+                  &lt;!--formulario de ingreso de correo--&gt;<br>
+                  &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+                &lt;input type="email" id="email" name="email" required&gt;<br>
+                  &lt;!--formulario de ingreso de fecha--&gt;<br>
+                  &lt;label for="fecha"&gt;Fecha:&lt;/label&gt;<br>
+                &lt;input type="date" id="fecha" name="fecha" required&gt;<br>
+                  &lt;!--formulario de ingreso de hora--&gt;<br>
+                  &lt;label for="hora"&gt;Hora:&lt;/label&gt;<br>
+                &lt;input type="time" id="hora" name="hora" required&gt;<br>
+                  &lt;!--formulario de ingreso de color--&gt;<br>
+                  &lt;label for="color"&gt;Color:&lt;/label&gt;<br>
+                &lt;input type="color" id="color" name="color" required&gt;<br>
+                  &lt;!--formulario de ingreso de rango--&gt;<br>
+                  &lt;label for="rango"&gt;Rango:&lt;/label&gt;<br>
+                &lt;input type="range" id="rango" name="rango" required&gt;<br>
+                  &lt;!--formulario de ingreso de telefono--&gt;<br>
+                  &lt;label for="telefono"&gt;Telefono:&lt;/label&gt;<br>
+                &lt;input type="tel" id="telefono" name="telefono" required&gt;<br>
+                &lt;input type="submit" value="Enviar"&gt;<br>
+          
+              &lt;/form&gt;              
+              
+            </code>
+          </p>
+        </div> 
+
+      </section>
+      <br>
+      <section class="mb-pl-30 mb-pr-30">
+        <br>
+        <a href="#inicio">Atras</a>
+        <br><br>
+        <h2 id="tarjetas">Tarjetas </h2>
+        <br>
+        <h2>Diferentes tipos de tarjetas con su documentacion para ser diseñadas por los usuarios
+         </h2> <br>
+        <h3>Tarjeta numero 1 </h3>
+        <p>Esta tarjeta es una simple para brindar informacion</p>
+        <br>
+
+        <div class="mb-border-solid-2px mb-bgblanco-n" style="width: 350px; height: 240px; ">
+          <div class="content ">
+                  <h3>Informacion</h3>
+                  <br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint doloribus eos, iste ab,
+                     at aspernatur enim quaerat veritatis veniam beatae. Nam deserunt officiis numquam?</p><br>
+                  <div class=" mb-flexbox mb-flexbox--justify-center " style="width: auto;"><button class="mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;">Mas info</button></div>
+                  
+          </div>
+        </div> <br>
+        <br><br>
+
+         <h3>Codigo de diseño de la tarjeta numero 1</h3> <br>
+        <div style="width: 100%; height: 380px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+           &lt;div&gt; class="mb-border-solid-2px mb-bgblanco-n" style="width: 350px; height: 240px;" &gt;<br>
+            &lt;div&gt; class="content"&gt; <br>
+               &lt;h3&gt;Informacion&lt;/h3&gt;<br>
+                 <br>&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Ad sint doloribus eos, iste ab,
+                   at aspernatur enim quaerat veritatis <br>veniam beatae. Nam deserunt officiis numquam?;p&gt; <br>
+                     <br>&lt;div&gt; class=" mb-flexbox mb-flexbox--justify-center " <br>style="width: auto;"&gt;&lt;button <br>class="mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center<br> mb-brpx-20" style="width: 100px; height:<br> 30px;">Mas info &lt;button&gt; 
+                        <br>&lt;/div&gt; <br> 
+                             &lt;/div&gt; <br>
+                               &lt;/div&gt; 
+        
+        </code>
+
+        </div>
+        <br>
+        <h2>Tarjeta numero 2 </h2>
+        <p>Esta es una tarjeta de usuario la cual lleva una imagen en la parte superior, lleva diferentes campos para brindar datos y sus diferentes enlaces a redes sociales y un boton para tener mas  informacion del usuario </p>
+        <br>
+        
+        
+        <div class="mb-border-solid-2px mb-bgblanco-n " style="width: 350px; height: 520px;">
+          <div class="content">
+            <img  src="/Componentes/img/3.jpg" style="width: 347px; height: 200px;" alt="">
+            <div class="datos mb-ml-14 mb-letraf-negro">
+              
+                <h3 >Datos</h3>
+                 <p >Nombre: <br>
+                     Apellidos: <br>
+                    Cargo: <br>
+                    Dirección: Calle 123, Ciudad, País</p> <br> 
+
+              </div>
+              
+              <hr>
+              <p class="mb-ml-14 mb-letraf-negro">Redes sociales: </p>
+                <a href="#"><i class="fa-brands fa-facebook mb-ml-50"></i><br></a> 
+                <a href="#"><i class="fa-brands fa-linkedin mb-ml-50"></i></a><br>
+                <a href="#"><i class="fa-brands fa-instagram mb-ml-50"></i></a>
+            <div class="btn-container"><br><hr>
+              <div class=" mb-flexbox mb-flexbox--justify-center mb-mt-20 " style="width: auto;">
+                <button class="mb-bggris-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;">Mas info</button></div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+
+
+        <h3>Codigo de diseño de la tarjeta numero 2</h3> <br>
+        <div style="width: 100%; height: 55 0px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+           &lt;div&gt; class="mb-border-solid-2px mb-bgblanco-n " style="width: 350px; height: 520px;" &gt;<br>
+            &lt;div&gt; class="content"&gt; <br>
+               &lt;img  src="./3.jpg" style="width: 347px; height: 200px;" alt=""&gt;<br>
+               &lt;div&gt;class="datos mb-ml-14 mb-letraf-negro"  &gt;<br>
+                     &lt;h3&gt;Datos&lt/h3&gt;  <br>
+                               &lt;p&gt;Nombre:  <br>
+                               Apellidos: <br>
+                               Cargo &lt;/p&gt; <br>
+                               Dirección: Calle 123, Ciudad, País &lt;/p&gt; <br>
+                               &lt;/div&gt; <br>
+                               &lt;hr&gt; <br>
+
+                               &lt;p&gt;class="class="mb-ml-14 mb-letraf-negro">Redes sociales:" &lt;/p&gt;<br>
+                               &lt;a href="#"&gt; &lt;iclass="class="fa-brands fa-facebook mb-ml-50"&lt;/a&gt;<br>
+                               &lt;a href="#"&gt; &lt;iclass="class="fa-brands fa-linkedin mb-ml-50"&lt;/a&gt;<br>
+                               &lt;a href="#"&gt; &lt;iclass="class="fa-brands fa-instagram mb-ml-50"&lt;/a&gt;<br>
+                               &lt;div class"btn-container&gt; <br>
+
+                               &lt;hr&gt; <br>
+
+                               &lt;div class=" mb-flexbox mb-flexbox--justify-center mb-mt-20 " style="width:<br> auto;"&gt; &lt;button class="mb-bggris-n <br> mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20"<br> style="width: 100px; height: 30px;" <br>&gt;Ma info &lt;/button&gt;&lt;/div&gt; <br> 
+                               &lt;/div&gt; <br>
+                               &lt;/div&gt; <br>
+                               &lt;/div&gt; <br>
+
+        </code>
+
+        </div>
+        <br> <br>
+
+        <h2>Tarjeta numero 3</h2>
+        <p>Esta tarjeta contiene una imagen a un costado ala par infromacion son un boton el cual puede llevar a mas informacion</p> <br>
+
+        <div class="mb-border-solid-1px mb-bggris-n mb-letraf-negro" style="width: 478px; height: 250px;">
+          <div class="content" style="display: flex;">
+            <img src="/Componentes/img/2.jpg" style="width: 155px; height: 250px;" >
+            <div style="margin-left: 20px;">
+              <h3>  Informacion</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint doloribus eos, iste ab,
+                   at aspernatur enim quaerat veritatis veniam beatae. Nam deserunt officiis numquam?</p>
+                <div class=" mb-flexbox mb-flexbox--justify-center " style="width: auto;"><button class="mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;">Mas info</button></div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        
+        <h3>Codigo de diseño de la tarjeta numero 3</h3> <br>
+        <div style="width: 100%; height: 410px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+
+          &lt;div class="mb-border-solid-1px mb-bggris-n mb-letraf-negro" style="width: 478px; height: 250px;"&gt; <br>
+          &lt;div class="content" style="display: flex;" class=&gt; <br>
+          &lt;img src"" style="display: flex;" &gt; <br>
+          &lt;div style="margin-letf: 20px" &gt; <br>
+          &lt;h3&gt Informacion&lt;/h3&gt; <br>
+          &lt;p&gt Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint doloribus eos, iste ab,
+          at aspernatur enim quaerat veritatis veniam beatae. Nam deserunt officiis numquam?&lt;/p&gt <br>
+          &lt;div class=" mb-flexbox mb-flexbox--justify-center " style="width: <br>auto;"&gt&lt;mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" <br>style="width: 100px; height: 30px;"&gtMas <br>info&lt;/button&gt;&lt;/div&gt; <br>
+          
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+
+        </code>
+        </div>
+        <br><br>
+
+        <h2>Tarjeta con efecto</h2> <br>
+        <p>Esta tarjeta es con efecto giratorio, la parte trase lleva texto la cual puede servir para dar informacion de alagun tipo de vento</p>
+             <br>
+        <div class="card">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"  style="background-image: url('/Componentes/img/4.png');"></div>
+                <div class="flip-card-back">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, eos totam ipsam quidem tenetur culpa rerum modi. 
+                    Tempore consequuntur totam possimus corporis nesciunt minus recusandae sed quas fugit necessitatibus. Non.
+                    <a  href="#" class="btn">Mas Informacion</a>
+                </div>
+              </div>
+            </div>
+         </div>
+
+         <br><br>
+         <h3>Codigo de diseño de la tarjeta con efecto hover</h3> <br>
+         <div style="width: 100%; height: 350px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+
+         <code >
+          &lt;div class="card"&gt; <br>
+          &lt;div class="fli-card-inner"&gt; <br>
+          &lt;div class="fli-card-front" style"background-image: <br>url('./.png');"&gt;&lt;/div&gt; <br>
+          &lt;div class="flip-card-back"&gt; <br>
+          Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Repudiandae optio, ducimus, commodi quas eum sunt hic
+          ipsum dolore facere dicta quidem incidunt tempore ullam <br>sapiente molestias, totam cumque sit ipsam. <br>
+          &lt;a  href="#" class="btn"Mas Infromacion&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+
+         </code>
+
+         </div>
+
+         <br><br>
+         <a href="#inicio">Atras</a><br> <br>
+         <h2 id="alertas">Alertas</h2> 
+         <h2>Diferentes alertas con su documentacion para ser diseñadas por los usuarios
+        </h2> <br>
+
+           <h2>Alerta 1</h2>
+           <p>Esta es una alerta basica la cual nos envia un mensaje</p> <br>
+
+          <div class="mb-border-solid-1px mb-bgrojo-f" style="width: 350px; height: 100px;">
+            <p class="mb-ml-100 mb-mt-25">Cargado con exito</p>
+         </div>
+           <br><br>
+
+           <h3>Codigo de diseño de la alerta 1</h3> <br>
+
+           <div style="width: 100%; height: 220px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+           <code>
+            &lt;div class="mb-border-solid-1px mb-bgrojo-f" style="width: 350px; height: 100px;"&gt; <br>
+            &lt;p class="mb-ml-100 mb-mt-25">Cargado con exito&lt;/p&gt <br>
+            &lt;/div&gt
+            
+           </code>
+
+           </div>
+            <br><br>
+
+            <h2>Alerta 2</h2>
+           <p>Esta es una alerta la cual lleva un icono con un mensaje de alerta de problema con dos botones, un boton sirve para ver el problema y otro para cerra la alerta</p> <br>
+          
+           <div class="mb-border-solid-1px mb-bgceleste-f" style="width: 250px; height: 100px;">
+            <i class="fa-solid fa-triangle-exclamation mb-ml-100 mb-mt-10"></i>
+            <p class="mb-ml-55">Alerta de problema</p>
+            <button class="mb-ml-25">Ver Problema</button>
+            <button class="mb-ml-30">Cerrar</button>
+        </div>
+        <br><br>
+
+        <h3>Codigo de diseño de la alerta 2</h3> <br>
+        <div style="width: 100%; height: 230px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+          &lt;div class="mb-border-solid-1px mb-bgceleste-f" style="width: 250px; height: 100px;"> <br>
+          &lt;p class="fa-solid fa-triangle-exclamation mb-ml-100 mb-mt-10">&lt;/p&gt; <br>
+          &lt;button class="mb-ml-25">Ver Problema&lt;/p&gt; <br>
+          &lt;button class="mb-ml-30">Cerrar&lt;/p&gt;
+          &lt;/div&gt
+
+        </code>
+      </div>
+      <br><br>
+        
+      <h2>Alerta 3</h2>
+      <p>Esta es una alerta con un borde diseñado con las clases de la libreria MBros la cual lleva un mensaje de confiramcion con dos botones uno de aceptar y el otro de cancelar</p>
+       
+      <div class="mb-border-solid-1px mb-bgverde-n mb-border-dotted-5px" style="width: 250px; height: 100px;">
+          <p class="mb-ml-50">Esta es una alerta de confiramcion</p>
+          <button class="mb-ml-25">Confirmar</button>
+          <button class="mb-ml-30">Cancelar</button>
+      </div>
+      <br><br>
+
+      <h3>Codigo de diseño de la alerta 3</h3> <br>
+      <div style="width: 100%; height: 230px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+         
+         <code>
+          &lt;div class="mb-border-solid-1px mb-bgverde-n mb-border-dotted-5px" style="width: 250px; height: 100px;"><br>
+          &lt;p class="mb-ml-50">Esta es una alerta de confiramcion&lt;/p&gt; <br>
+          &lt;button class="mb-ml-25">Confirmar&lt;/p&gt; <br>
+          &lt;button class="mb-ml-30">Cancelar&lt;/p&gt; <br>
+          &lt;/div&gt
+
+        </code>
+        </div>
+        <br><br>
+
+        <h2>Alerta 4</h2>
+        <p>Esta es una alerta de anuncio diseñado con un borde inset de las clases de la libreria MBros la cual llevas dos botones una para ver anuncio otro para cerrar</p>
+        <br>
+      <div class="mb-border-solid-1px mb-bgazul-n mb-border-inset-4px" style="width: 250px; height: 100px;">
+        <p class="mb-ml-65">Esta es una alerta de anuncios</p>
+        <button class="mb-ml-14">Ver anuncio</button>
+        <button class="mb-ml-50">Cerrar</button>
+    </div>
+    <br><br>
+    
+    <h3>Codigo de diseño de la alerta 4</h3> <br>
+    <div style="width: 100%; height: 230px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+     
+     <code>
+      &lt;div class="mb-border-solid-1px mb-bgazul-n mb-border-inset-4px" style="width: 250px; height: 100px;"><br>
+          &lt;p class="mb-ml-65">Esta es una alerta de anuncios&lt;/p&gt; <br>
+          &lt;button class="mb-ml-15">Ver anuncio&lt;/p&gt; <br>
+          &lt;button class="mb-ml-50">Cerrar&lt;/p&gt; <br>
+          &lt;/div&gt
+
+     </code>
+    </div>
+    <br><br>
+      <!-- aca iniccian las barras de navegacion -->
+      <section class="mb-pl-30 mb-pr-30">
+        <a href="#inicio">Atras</a><br>
+        <br>
+        <h2 id="navbar" >Barras de Navegacion</h2> <br>
+        <P>Para poder usar esta barra de navegacion tenemos que copiar todos los subcomponentes que muestra aca ya que ya que entre todos forman el navbar mostrado</P>
+        <br> 
+        <div class="container1" >
+          <div class="img1"></div>
+    
+          <div class="navegador1"> 
+            <nav class="navbar1">
+              <ul class="navbar-nav1">
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Inicio</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Acerca de</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Servicios</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <br><br>
+
+        <div style="width: 100%; height: 450px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+          <code>
+            &lt;div class="container1" ><br>
+                &lt;div class="img1"&gt;&lt;/div&gt; <br>
+        
+                 &lt;div class="navegador1"&gt; <br>
+                 &lt;nav class="navbar1"&gt; <br>
+              &lt;ul class="navbar-nav1"&gt; <br>
+              &lt;li class="nav-item1"&gt; <br>
+              &lt;a href="#" class="nav-link1"&gt;Inicio&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;li class="nav-item1"&gt; <br>
+              &lt;a href="#" class="nav-link1"&gt;Acerca de&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;li class="nav-item1"> <br>
+              &lt;a href="#" class="nav-link1"&gt;Servicios&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;li class="nav-item1"&gt; <br>
+              &lt;a href="#" class="nav-link1"&gt;Contacto&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;/ul &gt; <br>
+              &lt;/nav &gt; <br>
+              &lt;/div &gt; <br>
+              &lt;/div &gt;
+            
+          </code>
+        </div>
+
+      </section>
+      <br><br>
+      <section class="mb-pl-30 mb-pr-30">
+        <nav class="mb-border-solid-4px mb-bgverde-f " >
+        
+          <ul class="mb-border-solido-1px  mb-flexbox mb-flexbox--justify-between mb-mr-15 " >
+  
+            <form class=" mb-mt-35 mb-inline">
+              <button style="height: 40px;" class="  " type="submit">Buscar</button>
+              <input style="height: 40px;" type="search" placeholder="buscar">
+            </form> 
+  
+            <li class=" mb-inline   mb-flexbox  mb-flexbox mb-flexbox--aling-center mb-mt-70 mb-mr-20" >
+              <a href="#" class="mb-inline mb-sub-none"><p class="mb-font-Verdana-25px  ">inicio</p></a>
+            </li>
+            <li class=" mb-inline mb-mt-70 mb-mr-20">
+              <a href="#" class="mb-inline mb-sub-none"><p class="mb-font-Verdana-25px">Acerca de </p></a>
+            </li>
+            <li class=" mb-inline mb-mt-70 mb-mr-20">
+              <a href="#" class="nav-link mb-sub-none"><p class="mb-font-Verdana-25px">servicios</p></a>
+            </li>
+            <li class="mb-inline mb-mt-70 mb-mr-20 " >
+              <a href="#" class="nav-link mb-sub-none"><p class="mb-font-Verdana-25px">Contacto</p></a>
+            </li>   
+          </ul>
+        </nav>  
+        <br><br>
+        <div   style="width: 100%; height: 600px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+          <code>
+            &lt;nav class="mb-border-solid-4px mb-bgverde-f " > <br>
+        
+            &lt;ul class="mb-border-solido-1px  mb-flexbox mb-flexbox--justify-between mb-mr-15 " > <br>
+      
+            &lt;form class=" mb-mt-35 mb-inline"> <br>
+            &lt;button style="height: 40px;" class="  " type="submit">Buscar&lt;/button> <br>
+            &lt;input style="height: 40px;" type="search" placeholder="buscar"> <br>
+            &lt;/form> <br>
+      
+            &lt;li class=" mb-inline   mb-flexbox  mb-flexbox mb-flexbox--aling-center mb-mt-70 mb-mr-20" > <br>
+            &lt;a href="#" class="mb-inline mb-sub-none">&lt;p class="mb-font-Verdana-25px  ">inicio&lt;/p>&lt;/a> <br>
+            &lt;/li> <br>
+            &lt;li class=" mb-inline mb-mt-70 mb-mr-20"> <br>
+            &lt;a href="#" class="mb-inline mb-sub-none">&lt;p class="mb-font-Verdana-25px">Acerca de &lt;/p>&lt;/a> <br>
+            &lt;/li> <br>
+            &lt;li class=" mb-inline mb-mt-70 mb-mr-20"> <br>
+            &lt;a href="#" class="nav-link mb-sub-none">&lt;p class="mb-font-Verdana-25px">servicios&lt;/p>&lt;/a> <br>
+            &lt;/li> <br>
+            &lt;li class="mb-inline mb-mt-70 mb-mr-20 " > <br>
+            &lt;a href="#" class="nav-link mb-sub-none">&lt;p class="mb-font-Verdana-25px">Contacto&lt;/p>&lt;/a> <br>
+            &lt;/li>   <br>
+            &lt;/ul> <br>
+            &lt;/nav>  <br>
+            
+          </code>
+
+          
+        </div>
+      </section>
+      <!-- inicializacion de badges -->
+      <section class="mb-pl-30 mb-pr-30" >
+        <br><br><a href="#inicio">Atras</a><br><br>
+        <h2 id="badges">Badges</h2><br>
+        <p>Realizacion de difrentes tipos de badges personalizados para dichas utilizacion.</p>
+        <br>
+        <h2>badges de heading usando los titulos de h2 a h6 (tamaños)</h2>
+        <br>
+        <h2 class="badge-secondary">Example heading Secundario</h2>
+        <h2 class="badge-info">Example heading Información</h2>
+        <h3 class="badge">Example heading Predeterminado</h3>
+        <h3 class="badge-danger">Example heading Peligro</h3>
+        <h4 class="badge-primary">Example heading Primario</h4>
+        <h5 class="badge-success">Example heading Éxito</h5>
+        <br>
+        <div   style="width: 100%; height: 150px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+          <code>
+            &lt;h2 class="badge-secondary">Example heading Secundario &lt;/h2 &gt;<br>
+            &lt;h2 class="badge-info">Example heading Información &lt;/h2 &gt; <br>
+            &lt;h3 class="badge">Example heading Predeterminado &lt;/h3 &gt; <br>
+            &lt;h3 class="badge-danger">Example heading Peligro &lt;/h3 &gt; <br>
+            &lt;h4 class="badge-primary">Example heading Primario &lt;/h4 &gt; <br>
+            &lt;h5 class="badge-success">Example heading Éxito &lt;/h5 &gt; <br>
+            
+          </code>
+        </div>
+      
+      </section>
+      <br>
+
+      <section>
+        
+      </section>
+
+      <section class="mb-pl-30 mb-pr-30" >
+          <h2>badges de notificaciones con botones</h2><br>
+        
+          <p> Estos son badges para de botones de nitificacion para poder usalor mandamos a llamar la clase badge-button1, badge-button2, badge-button3, badge-button4, badge-button5. Para usar la notificacion la mandamos a llamar como badge y ahi se le asiga el eciho valor que este obtendra </p><br>
+
+          <button class="badge-button1">Mensajes <span class="badge">3</span></button>
+          <button class="badge-button2 blue">Notificaciones <span class="badge">7</span></button>
+          <button class="badge-button3 red">Alertas <span class="badge">1</span></button>
+          <button class="badge-button4 green">Confirmar <span class="badge">2</span></button>
+          <button class="badge-button5 yellow">Advertencia <span class="badge">4</span></button>
+          <br>
+          <br>
+          <div   style="width: 100%; height: 150px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+            
+            <code>
+              &lt; button class="badge-button1"> Mensajes &lt; span class="badge"&gt; 3 &lt; /span> &lt; /button &gt; <br>
+              &lt; button class="badge-button2 blue">Notificaciones &lt;span class="badge"&gt; 7 &lt;/span>&lt;/button&gt; <br>
+              &lt; button class="badge-button3 red">Alertas &lt; span class="badge"&gt;1&lt;/span>&lt;/button&gt; <br>
+              &lt; button class="badge-button4 green">Confirmar  &lt;span class="badge"&gt;2&lt;/span>&lt;/button&gt; <br>
+              &lt; button class="badge-button5 yellow">Advertencia &lt;span class="badge"&gt;4&lt;/span>&lt;/button&gt;
+            </code>
+          </div>
+
+      </section>
+      <br> <br>
+      <section class="mb-pl-30 mb-pr-30">
+          <h2>badges de Background colors (colores)</h2><br>
+          <p>badges para el uso de colores estos los usamos mandando a llamarla clase badge, luefo deoendiento el color que necesite por ejemplo badge-red, badge-green y asi sucesivamente</p> <br>
+          <span class="badge badge-red">Nuevo</span>
+          <span class="badge badge-green">Popular</span>
+          <span class="badge badge-blue">Destacado</span>
+          <span class="badge badge-yellow">Oferta</span>
+          <span class="badge badge-purple">VIP</span>
+          <span class="badge badge-gray">Agotado</span>
+          <br>
+          <br>
+          <div   style="width: 100%; height: 150px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+            
+            <code>
+              &lt; span class="badge badge-red"&gt;Nuevo&lt;/span&gt; <br>
+              &lt; span class="badge badge-green"&gt;Popular&lt;/span&gt; <br>
+              &lt; span class="badge badge-blue"&gt;Destacado&lt;/span&gt; <br>
+              &lt; span class="badge badge-yellow"&gt;Oferta&lt;/span&gt; <br>
+              &lt; span class="badge badge-purple"&gt;VIP&lt;/span&gt; <br>
+              &lt; span class="badge badge-gray"&gt;Agotado&lt;/span&gt;
+            </code>
+          </div>
+
+      </section>
+      <br> <br>
+      <section class="mb-pl-30 mb-pr-30">
+          <h2>badges de pill o tipo pastilla</h2><br>
+          <p>Usa la clase de utilidad .badge para hacer que las insignias sean igual a las que estan de ejemplo pero lo haces llamando de esta forma, Ejemplo: badge badge-primary-pill.</p> <br>
+          <span class="badge badge-primary-pill ">Primario</span>
+          <span class="badge badge-secondary-pill">Secundario</span>
+          <span class="badge badge-success-pill">Éxito</span>
+          <span class="badge badge-danger-pill">Peligro</span>
+          <span class="badge badge-warning-pill">Advertencia</span>
+          <span class="badge badge-info-pill">Información</span>
+        <br> <br>
+        <div   style="width: 100%; height: 150px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+            
+          <code>
+            &lt; span class="badge badge-primary-pill "&gt;Primario&lt;/span&gt; <br>
+            &lt; span class="badge badge-secondary-pill"&gt;Secundario&lt;/span&gt; <br>
+            &lt; span class="badge badge-success-pill"&gt;Éxito&lt;/span&gt; <br>
+            &lt; span class="badge badge-danger-pill"&gt;Peligro&lt;/span&gt; <br>
+            &lt; span class="badge badge-warning-pill"&gt;Advertencia&lt;/span&gt; <br>
+            &lt; span class="badge badge-info-pill"&gt;Información&lt;/span&gt;
+          </code>
+        </div>
+
+      </section>
+      <br>
+
+      <!-- Parte 4 -->
+      <br>
+      
+      <section class="mb-pl-30 mb-pr-30">
+        <br><br><a href="#inicio">Atras</a><br><br>
+        <h2 id="sombras">Shadow o Sombra</h2>
+        <p>Aca utilizamos la libreria que creamos para poder usar sombras en los elementos </p> <br>
+        <div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center" >
+
+          <div style="width: 150px; height: 100px ; color: black;" class=" mb-shadow-10 mb-mr-20 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-bgamarillo-f"> 
+            </div> 
+          <div style="width: 150px; height: 100px ; color: black" class=" mb-shadow-5 mb-mr-20 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-bgamarillo-f"></div> <br>
+          </div>
+
+          <br>
+
+          <div style="width: 100%; height: 250px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+
+            <code>
+              &lt;div style="width: 150px; height: 100px ; color: black;" class=" mb-shadow-10 mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt; 
+                  &lt;/div&gt;<br><br>
+
+                  &lt;div style="width: 150px; height: 100px ; color: black" class="mb-shadow-5 mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt;&lt;/div&gt; <br>
+              </div>
+            </code>
+
+      </section>
+      <br>
+
+      <section class="mb-pl-30 mb-pr-30">
+        <br> <br><a href="#inicio">Atras</a><br><br>
+        <h2 id="maypa">Margin</h2> <br>
+        <p>se usaron la utilidades de margenes para agregar los margen establecido en estos ejemplos </p> <br>
+          <div style="width: 100%; height: 250px; background-color: green;" >
+            <div style="width: 100px; height: 75px ; background-color: brown; color: black;" class="mb-ml-40 mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center "> ml-40</div> <br>
+            <div style="width: 100px; height: 75px ; background-color: rgb(75, 42, 165); color: black" class="mb-mt-50 mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center">mt-50</div> <br>
+            </div>        
+            <br>
+            <div style="width: 100%; height: 200px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+              <code>
+
+                &lt; div style="width: 100px; height: 75px ; background-color: brown; color: black;" class="mb-ml-40 mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center "> ml-40 &lt;/div &gt; <br>
+                &lt; div style="width: 100px; height: 75px ; background-color: rgb(75, 42, 165); color: black" class="mb-mt-50 mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center">mt-50 &lt;/div &gt;
+
+              </code>
+            </div>
+      </section> 
+      <br>
+
+      <section class="mb-pl-30 mb-pr-30">
+        <h2>Padding</h2> <br>
+        <p>se usaron la utilidades de padding para agregar los padding establecido en estos ejemplos </p> <br>
+          <div style="width: 100%; height: 250px; background-color: green;" >
+            <div style="width: 400px; height: 100px ; background-color: brown; color: black;" class="mb-pl-60 mb-pt-20  "> 
+              en este caso estamos usando padding que son pl-60 y pt 20</div> <br>
+            <div style="width: 300px; height: 80px ; background-color: rgb(75, 42, 165); color: black" class="mb-pr-60 mb-pt-30 ">en este caso estamos usando un pr-60 y un pt-</div> <br>
+            </div>        
+            <br>
+            <div style="width: 100%; height: 200px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+              <code>
+
+                &lt;div style="width: 400px; height: 100px ; background-color: brown; color: black;" class="mb-pl-60 mb-pt-20  "> en este caso estamos usando padding que son pl-60 y pt 20&lt;/div &gt; <br>
+                &lt;div style="width: 300px; height: 80px ; background-color: rgb(75, 42, 165); color: black" class="mb-pr-60 mb-pt-30 ">en este caso estamos usando un pr-60 y un pt-&lt;/div&gt;
+              </code>
+            </div>
+      </section> 
+      <br>
+
+      <section class="mb-pl-30 mb-pr-30">
+        <br><br><a href="#inicio">Atras</a><br><br>
+        <h2 id="caja">Flexbox</h2>
+        <h3>flexbox-end</h3>
+        <p>Aca utilizamos los flex de direccion end con nuestra clases</p> <br>
+        <div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-end " >
+          <div style="width: 150px; height: 100px ; color: black;" class=" mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"> 
+            Flex-d-end</div> 
+          <div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">Flex-d-end</div> <br>
+
+          <div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">Flex-d-end</div>
+
+          
+        </div>
+          <br>
+          <div style="width: 100%; height: 250px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+
+            <code>
+              &lt;div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-end " &gt;&lt;/div &gt;
+
+              &lt;div style="width: 150px; height: 100px ; color: black;" class=" mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt; <br><br>
+                Flex-d-end&lt;/div&gt;
+
+                &lt;div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt;Flex-d-end&lt;/div&gt; <br><br>
+    
+                &lt;div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt;Flex-d-end&lt;/div&gt;
+
+            </code>
+
+
+      </section>
+      <br>
+
+      <section class="mb-pl-30 mb-pr-30">
+        
+        <h3>flexbox-center</h3>
+        <p>Aca utilizamos los flex de direccion center con nuestra clases</p> <br>
+        <div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center" >
+
+          <div style="width: 150px; height: 100px ; color: black;" class=" mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"> 
+            Flex-d-center</div> 
+          <div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">Flex-d-center</div> <br>
+
+          <div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">Flex-d-center</div>
+
+          
+        </div>
+          <br>
+          <div style="width: 100%; height: 250px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+
+            <code>
+              &lt;div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center" &gt; <br>
+
+              &lt;div style="width: 150px; height: 100px ; color: black;" class=" mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt; 
+                  Flex-d-center&lt;/div&gt;<br>
+
+                  &lt;div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt;Flex-d-center&lt;/div&gt; <br>
+      
+                  &lt;div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"&gt;Flex-d-center&lt;/div&gt;
+      
+                
+              </div>
+            </code>
+      </section>
+      <br>
+
+      <section class="mb-pl-30 mb-pr-30">
+        
+        <h3>flexbox-start</h3>
+        <p>Aca utilizamos los flex de direccion start con nuestra clases</p> <br>
+        <div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-start " >
+
+          <div style="width: 150px; height: 100px ; color: black;" class=" mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"> 
+            Flex-d-Start</div> 
+          <div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">Flex-d-Start</div> <br>
+
+          <div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">Flex-d-Start</div>
+
+          
+        </div>
+          <br>
+          <div style="width: 100%; height: 250px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+
+            <code>
+              &lt;div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-start " &gt; <br>
+
+              &lt;div style="width: 150px; height: 100px ; color: black;" class=" mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-start"&gt; 
+                  Flex-d-start&lt;/div&gt;<br>
+
+                  &lt;div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-start"&gt;Flex-d-start&lt;/div&gt; <br>
+      
+                  &lt;div style="width: 150px; height: 100px ; color: black" class="mb-border-solid-4px mb-mr-10 mb-flexbox mb-flexbox--align-center mb-flexbox--justify-start"&gt;Flex-d-start&lt;/div&gt;
+              </div>
+            </code>
+      </section>
+      <br>
+
+      <section class="mb-pl-30 mb-pr-30">
+        <br><br><a href="#inicio">Atras</a><br><br>
+        <h2 id="borde-red">Bordes</h2><br>
+        <p>Utilizamos los difrentes tipos de border lo hemos hecho en general dale borde al objeto completo.</p><br>
+        <div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-between mb-flexbox--align-center " >
+          <div style="width: 100px; height: 100px ; color: black;" class=" mb-border-solid-4px mb- "> 
+            </div> 
+          <div style="width: 100px; height: 100px ; color: black" class="mb-border-dotted-4px "></div> <br>
+
+          <div style="width: 100px; height: 100px ; color: black" class="mb-border-dashed-4px "></div>
+
+          <div style="width: 100px; height: 100px ; color: black" class="mb-border-double-4px "></div>
+          
+          </div>
+          
+          <br>
+          <div style="width: 100%; height: 200px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+
+            <code>
+              &lt;div style="width: 100px; height: 100px ; color: black;" class="mb-border-solid-4px mb- "&gt;
+              &lt;/div&gt;  <br>
+              &lt;div style="width: 100px; height: 100px ; color: black" class="mb-border-dotted-4px "&gt; &lt;/div&gt;  <br>
+  
+              &lt;div style="width: 100px; height: 100px ; color: black" class="mb-border-dashed-4px "&gt; &lt;/div&gt; <br>
+  
+              &lt;div style="width: 100px; height: 100px ; color: black" class="mb-border-double-4px "&gt; &lt;/div&gt; 
+
+            </code>
+
+      </section>
+      <br>
+
+      <section class="mb-pl-30 mb-pr-30">
+        <h2>Borde Redondo</h2>
+        <p>Utilizamos 2 clases para redonder objetos una por porcentaje y otra a travez de pixeles</p>
+        <div style="width: 100%; height: 200px; background-color: white;" class="mb-flexbox mb-flexbox--justify-between mb-flexbox--align-center " >
+          <div style="width: 100px; height: 100px ; color: black;" class=" mb-border-solid-4px mb-br-50 "> 
+            </div> 
+          <div style="width: 100px; height: 100px ; color: black" class="mb-border-solid-4px mb-br-36 "></div> <br>
+
+          <div style="width: 100px; height: 100px ; color: black" class="mb-border-solid-4px mb-brpx-15 "></div>
+
+          <div style="width: 100px; height: 50px ; color: black" class="mb-border-solid-4px mb-brpx-10 "></div>
+        </div>
+          <br>
+          <div style="width: 100%; height: 200px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+
+            <code>
+              &lt;div style="width: 100px; height: 100px ; color: black;" class="mb-border-solid-4px mb-br-50  "&gt;
+              &lt;/div&gt;  <br>
+              &lt;div style="width: 100px; height: 100px ; color: black" class="mb-border-solid-4px mb-br-36 "&gt; &lt;/div&gt;  <br>
+  
+              &lt;div style="width: 100px; height: 100px ; color: black" class="mb-border-solid-4px mb-brpx-15 "&gt; &lt;/div&gt; <br>
+  
+              &lt;div style="width: 100px; height: 50px ; color: black" class="mb-border-solid-4px  mb-brpx-10"&gt; &lt;/div&gt; 
+
+            </code>
+
+          </div>
+          <section><br><br><a href="#inicio">Atras</a><br><br>
+          <div class="mb-flexbox--justify-center"> <h2 id="ocultar">Ocultar Elementos</h2><br>
+            <ul>
+              <li>
+                Visibility: controla la visibilidad del elemento, visible o no, pero no afecta a como el navegador representa la caja. Por tanto, visibility: hidden esconde el elemento pero el espacio que ocupa sigue representándose.
+              </li>
+            </ul> <br>
+                <ul>
+                  <li>
+                    Display: cada elemento en HTML se puede circunscribir a un rectángulo, referido generalmente como box o caja. El comportamiento de esta caja se puede controlar a través de la propiedad display que le dice al navegador como debe representarla: en línea (valor inline), como un bloque (valor block), etc. El valor display: none le dice al navegador que no lo represente; el resultado es que el elemento queda escondido y el espacio que debería ocupar colapsado.
+                  </li>
+                </ul> <br>
+            <div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">1</div> <br>  
+            <div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-invisible">2</div> <br>  
+            <div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">3</div> <br>  
+            <div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-invisible">4</div> <br>  
+            <div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-sub-none">5</div> <br>  
+         
+          </div>
+          <h2>Codigo Implementado</h2><br>
+          
+      
+          <div style="width: 100%; height: 380px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+            <p>
+              <code>
+                &lt;section&gt;<br>
+          &lt;div class="mb-flexbox--justify-center"&gt; &lt;h2&gt;Ocultar Elementos&lt;/h2&gt;&lt;br&gt;<br>
+            &lt;div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"<br>&gt;1&lt;/div&gt; &lt;br&gt;  
+            &lt;div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-invisible"<br>&gt;2&lt;/div&gt; &lt;br&gt;  
+            &lt;div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"<br>&gt;3&lt;/div&gt; &lt;br&gt;  
+            &lt;div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-invisible"<br>&gt;4&lt;/div&gt; &lt;br&gt;  
+            &lt;div style="width: 500px; height: 100px;" class="mb-bgmenta-n mb-letraf-blanco mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center mb-sub-none"<br>&gt;5&lt;/div&gt; &lt;br&gt;  
+         
+          &lt;/div&gt;
+        &lt;/section&gt;          
+                
+              </code>
+            </p>
+          </div> 
+              
+        </section> <br> <br>
+        <br><br><a href="#inicio">Atras</a><br><br>
+        <section> <h2 id="colores">Colores de fondo</h2><br>
+          <h3><p>Colores suaves</p></h3> <br>
+          <div class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center" style="gap: 50px;">
+
+            <div style="width: 200px; height: 50px;" class="mb-bgrojo-s mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgverde-s mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgamarillo-s mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgrosado-s mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgmorado-s mb-brpx-25"></div> <br>
+
+          </div> <br><br>
+
+          <h3><p>Colores Fuertes</p></h3> <br>
+          <div class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center" style="gap: 50px;">
+
+            <div style="width: 200px; height: 50px;" class="mb-bgrojo-f mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgverde-f mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgrojom-n mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgrosado-f mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgceleste-f mb-brpx-25"></div> <br>
+
+          </div> <br><br>
+
+          <h3><p>Colores Neutros</p></h3> <br>
+          <div class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center" style="gap: 50px;">
+
+            <div style="width: 200px; height: 50px;" class="mb-bgazul-n mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgmenta-n mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgmorado-n mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bgverde-n mb-brpx-25"></div> <br>  
+            <div style="width: 200px; height: 50px;" class="mb-bggris-n mb-brpx-25"></div> <br>
+
+          </div> 
+          <br><br> 
+          <h3>Codigo implementado</h3><br>
+          <h4>Se podra implementar una clase con color, siempre y cuando este definida en la libreria, en dado caso no lo este, se podra implementar mediante las clases</h4> <br>  
+          <div   style="width: 100%; height: 420px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+            <code>
+              &lt;div class="mb-flexbox mb-flexbox--justify-center <br> mb-flexbox--align-center" style="gap: 50px;"&gt;
+
+              &lt;div style="width: 200px; height: 50px;" class="mb-bgrojo-f mb-brpx-25"&gt;&lt;/div&gt; &lt;br&gt;  <br>
+              &lt;div style="width: 200px; height: 50px;" class="mb-bgverde-f mb-brpx-25"&gt;&lt;/div&gt; &lt;br&gt;  <br>
+              &lt;div style="width: 200px; height: 50px;" class="mb-bgrojom-n mb-brpx-25"&gt;&lt;/div&gt; &lt;br&gt;  <br>
+              &lt;div style="width: 200px; height: 50px;" class="mb-bgrosado-f mb-brpx-25"&gt;&lt;/div&gt; &lt;br&gt;  <br>
+              &lt;div style="width: 200px; height: 50px;" class="mb-bgceleste-f mb-brpx-25"&gt;&lt;/div&gt; &lt;br&gt;<br>
+  
+            &lt;/div&gt; &lt;br&gt;&lt;br&gt;  
+              
+            </code>
+  
+            
+          </div>
+        </section> 
+        <br><br><a href="#inicio">Atras</a><br><br>
+        <section> <h2 id="textos">Tipos de texto</h2> <br>
+          <div>
+            <h4>Coloca el texto en parrafo y se resalta con la etiqueta &lt;strong&gt; </h4> <hr>
+            <p class="mb-font-Helvetica" > <strong> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</strong> </p> <br>
+            <h4>Coloca el texto en negrita &lt;p&gt; </h4> <hr>
+            <p class="mb-font-Helvetica"> <em><b>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</b> </em> </p> <br>
+            <h4>Coloca el texto con un link establecido con la etiqueta &lt;a&gt; </h4> <hr>
+            <p class="mb-font-Helvetica"> <a href="/public/index.html"> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</a></p> <br>
+            <h4>Coloca el texto con letra italic &lt;i&gt; </h4> <hr>
+            <p class="mb-font-Helvetica"><i>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</i> </p> <br>
+          </div>
+          <div   style="width: 100%; height: 48 mb-brpx-50 mb-flexbox--align-center0px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+            <code>
+              &lt;div&gt;
+              &lt;h4&gt;Coloca el texto en parrafo y se resalta con la etiqueta &amp;lt;strong&amp;gt; &lt;/h4&gt; &lt;hr&gt;
+              &lt;p class="mb-font-Helvetica" &gt;<br> &lt;strong&gt; "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, <br>consectetur, adipisci velit..."&lt;/strong&gt; &lt;/p&gt; &lt;br&gt;
+              &lt;h4&gt;Coloca el texto en negrita <br>&amp;lt;p&amp;gt; &lt;/h4&gt; &lt;hr&gt;
+              &lt;p class="mb-font-Helvetica"&gt;<br> &lt;em&gt;&lt;b&gt;"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br>consectetur, adipisci velit..."&lt;/b&gt; &lt;/em&gt; &lt;/p&gt; &lt;br&gt;
+              &lt;h4&gt;Coloca el texto con un link establecido con la etiqueta <br>&amp;lt;a&amp;gt; &lt;/h4&gt; &lt;hr&gt;
+              &lt;p class="mb-font-Helvetica"&gt;<br> &lt;a href="/public/index.html"&gt;<br> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."&lt;/a&gt;&lt;/p&gt; &lt;br&gt;
+              &lt;h4&gt;Coloca el texto con letra italic <br>&amp;lt;i&amp;gt; &lt;/h4&gt; &lt;hr&gt;
+              &lt;p class="mb-font-Helvetica"&gt;&lt;i&gt;<br>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,<br> adipisci velit..."&lt;/i&gt; &lt;/p&gt; &lt;br&gt;
+            &lt;/div&gt;
+          &lt;/section&gt; &lt;br&gt;
+            </code>
+  
+            
+          </div>
+        </section> <br>
+
+        <section> <h2>Utilidades con los Textos &lt;H&gt;</h2> <hr> <br>
+          <h1>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h1> <br>
+          <h2>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h2> <br>
+          <h3>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h3> <br>
+          <h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4> <br>
+          <h5>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h5> <br>
+          <h6>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h6> <br>
+
+          <section>
+            <h2 class="mb-letraf-blanco">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h2> <br>
+            <h3 class="mb-letraf-rojo">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h3> <br>
+            <h6 class="mb-letraf-negro">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h6> <br> <br>
+
+            <h2 class="">"Neque porro quisquam est qui dolorem ipsum <del>quia dolor sit amet, consectetur, adipisci velit..."</del>  </h2> <br>
+            <h3 class="mb-letraf-rojo"> "Neque porro <sup>quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</sup> </h3> <br>
+            <h4 class="mb-letraf-rosa"> "Neque porro <sub>quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</sub> </h4> <br>
+          </section>
+        </section>
+
+        </section>
+
+        <div   style="width: 100%; height: 360px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+          <code>
+            &lt;section&gt; &lt;h2&gt;Utilidades con los Textos &amp;lt;H&amp;gt;&lt;/h2&gt; &lt;hr&gt; &lt;br&gt;
+        &lt;h1&gt;"Neque porro quisquam est qui dolorem ipsum <br>quia dolor sit amet, consectetur, adipisci velit..."&lt;/h1&gt; &lt;br&gt;
+        &lt;h2&gt;"Neque porro quisquam est qui dolorem ipsum <br>quia dolor sit amet, consectetur, adipisci velit..."&lt;/h2&gt; &lt;br&gt;
+        &lt;h3&gt;"Neque porro quisquam est qui dolorem ipsum <br>quia dolor sit amet, consectetur, adipisci velit..."&lt;/h3&gt; &lt;br&gt;
+        &lt;h4&gt;"Neque porro quisquam est qui dolorem ipsum <br>quia dolor sit amet, consectetur, adipisci velit..."&lt;/h4&gt; &lt;br&gt;
+        &lt;h5&gt;"Neque porro quisquam est qui dolorem ipsum <br>quia dolor sit amet, consectetur, adipisci velit..."&lt;/h5&gt; &lt;br&gt;
+        &lt;h6&gt;"Neque porro quisquam est qui dolorem ipsum <br>quia dolor sit amet, consectetur, adipisci velit..."&lt;/h6&gt; &lt;br&gt;
+
+        &lt;section&gt;          
+          </code>       
+        </div> <br><br>
+      </section>
+
+      
+
+    </article>
+
+    <aside style="width: 30%; height: auto; background-color: rgb(246, 191, 191);">
+      <section class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-pt-90">
+        
+        <ul class=" mb-flexbox mb-flexbox--column " >
+          <li class="mb-pt-30 mb-none-cir mb-bgrojo-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#Botones">Botones</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgverde-f mb-flexbox mb-flexbox--justify-center  mb-brpx-50 mb-flexbox--align-center"><a href="#formularios" >Formulario</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgamarillo-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#tarjetas">Tarjeta</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgrosado-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#alertas">Alertas</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgceleste-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#navbar">Barras de navegacion</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgrojo-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#badges">Badges</a></li>
+
+          <br><br>
+
+          <li class="mb-pt-30 mb-none-cir mb-bgrojo-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#textos">Texto</a></li><br>
+
+          <li class="mb-pt-30 mb-none-cir mb-bgverde-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center "><a href="#sombras" >Sombras</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgamarillo-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#maypa">Margenes y padding</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgrosado-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#caja">Flex-box</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgceleste-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#borde-red">Bordes y redondear elementos</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgrojo-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#ocultar">Ocultar elementos</a></li><br>
+          <li class="mb-pt-30 mb-none-cir mb-bgrojo-f mb-flexbox mb-flexbox--justify-center mb-brpx-50 mb-flexbox--align-center"><a href="#colores">Colores</a></li>
+          
+
+          
+        </ul>
+        
+      </section>
+
+    </aside> 
+    
+  </div>  
+  
+  
+
+    <div style="width: 100%; height: auto; background-color: rgb(156, 157, 157);">
+      <footer style="width: 100%; height: 175px; background-color: rgb(156, 188, 188);">
+        <a href="#inicio">Atras</a><br><br>
+        <h3 id="desarrolladores" class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center " >Copyrigth Edras Lazo - Andres Vasquez - Waldir Vasquez </h3>
+        <img style="height: 100px; width: 200px;" class="" src="/Componentes/img/mario logo.png" alt="">
+
+      </footer>
+    </div>
+ 
+</body>
+</head>
