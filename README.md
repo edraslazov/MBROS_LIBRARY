@@ -32,4 +32,36 @@ El estilo del botón se define con una altura de 40 píxeles y una anchura de 18
 El cursor del botón se establece en "pointer", lo que indica que el cursor cambiará a una mano cuando se mueva sobre el botón, lo que indica que es un elemento interactivo.
 El texto dentro del botón se establece como "NORMAL". Este texto se mostrará en el botón y se utilizará para identificar el propósito del botón.
 
+Formulario
+
+```
+<form action="">
+          <label for="Usuario">Usuario:</label>
+          <input type="text" id="Usuario" name="Usuario" required>
+            <!--formulario de ingreso de contraseña-->
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required>
+            <!--formulario de ingreso de correo-->
+            <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+            <!--formulario de ingreso de fecha-->
+            <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha" required>
+            <!--formulario de ingreso de hora-->
+            <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora" required>
+            <!--formulario de ingreso de color-->
+            <label for="color">Color:</label>
+          <input type="color" id="color" name="color" required>
+            <!--formulario de ingreso de rango-->
+            <label for="rango">Rango:</label>
+          <input type="range" id="rango" name="rango" required>
+            <!--formulario de ingreso de telefono-->
+            <label for="telefono">Telefono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+          <input type="submit" value="Enviar">
+
+        </form>
+        ```
+
 
