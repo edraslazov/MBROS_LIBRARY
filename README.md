@@ -22,7 +22,7 @@ Implemeacion en desarrols externos:
 ```
 <button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" style="height: 40px; width: 180px; cursor:pointer">NORMAL</button> 
 ```
-![boton](https://user-images.githubusercontent.com/117502426/233900338-9dad0e26-a0de-4761-ae67-8cc9aa8ba89c.png)
+![boton](https://user-images.githubusercontent.com/117502426/233900440-0d128d1c-2fc8-4697-ab19-83d7da5697ad.png)
 
 
 Este código HTML define un botón con las siguientes características:
