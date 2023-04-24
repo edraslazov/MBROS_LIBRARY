@@ -43,8 +43,674 @@
 
   </nav>
 
-  <div style="width: 100%; height: 800px; background-color: aqua;" class="mb-flexbox">
-    <article  style="width: 70%; height: 800px; background-color: yellow; "  >
+  <div style="width: 100%; height: auto; background-color: aqua;" class="mb-flexbox">
+    <article  style="width: 70%; height: auto; background-color: yellow; " >
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15"> <h2>Botones</h2> 
+        <hr> <br>
+        <p class="mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">El elemento HTML &lt;input type="button"&gt; es una versión específica del elemento que se usa para crear un botón en el que se puede<br>hacer clic sin ningún valor por defecto, es decir, no tiene un comportamiento predeterminado como por ejemplo <br> En HTML5 ha sido reemplazado por el elemento &lt;button&gt; .&lt;input&gt;,&lt;input type="reset"&gt;</p> <br>
+        
+
+       <div class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30 " style="gap: 30px;">
+        <button class="mb-bgrojo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px " style="height: 40px; width: 140px; cursor: not-allowed;">BLOQUEADO</button>
+
+        <button class="mb-bgmorado-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" style="height: 40px; width: 160px; cursor:pointer">SOMBREADO </button>
+
+        <button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" style="height: 40px; width: 180px; cursor:pointer">NORMAL</button>  
+
+        <button class="mb-bgverde-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" style="height: 40px; width: 200px; cursor:pointer"> <a href=""></a>LINK</button>      
+
+    </div> <br><br>
+    <div class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30" style="width: 100%; height: 270px; background-color: black;">
+      
+      <p>
+        <code>     
+            &lt;button class="mb-bgrojo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px " style="height: 40px; width: 140px; cursor: not-allowed;">&gt;BLOQUEADO&lt;/button&gt;<br> 
+            &lt;button class="mb-bgmorado-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" style="height: 40px; width: 160px; cursor:pointer">&gt;SOMBREADO &lt;/button&gt;<br>   
+            &lt;button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" style="height: 40px; width: 180px; cursor:pointer">&gt;NORMAL&lt;/button&gt; <br>    
+            &lt;button class="mb-bgverde-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px mb-heavy-shadow" style="height: 40px; width: 200px; cursor:pointer">&gt;LINK&lt;/button&gt;<br> 
+          </code>    
+      </p>  
+    </div> <br>
+    <br>   
+      </section>
+      
+      <!--Formularios-->
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15"> <h2>Formularios</h2>
+        <hr class="mb-letraf-negro">
+        <div> <!-- Form 1-->
+          <p class="mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">
+            <br>
+          <ul>
+            <li>
+              <b> Type Text:</b> Este tipo de input toma un valor de "texto", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Password:</b> Como su nombre lo indica, una entrada con un tipo de contraseña crea una contraseña. Es automáticamente invisible para el usuario, a menos que sea manipulado por JavaScript.  
+            </li>
+          </ul><br>
+          <ul>
+            <li>
+              <b> Type Email:</b> Este tipo de input toma un valor de "correo electrónico", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Submit:</b> Este tipo de input toma un valor de "enviar", por lo que crea un botón de envío.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Button:</b> Este tipo de input toma un valor de "botón", por lo que crea un botón.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Fecha:</b> Es posible que se haya registrado en un sitio web donde solicitó la fecha de un evento determinado. La web probablemente usó una entrada con el valor de tipo establecido "date" para lograr esto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Color:</b> Este tipo de input toma un valor de "color", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <ul>
+            <li>
+              <b> Type Radio:</b> Este tipo de input toma un valor de "radio", por lo que crea una sola línea de entrada de texto.
+            </li>
+          </ul> <br>
+          <h2 class="mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center">TIPOS DE FORMULARIOS</h2>
+          <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+      
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+      
+          <input type="submit" value="Enviar">
+          
+        </form> 
+      </div>
+      <div style="width: 100%; height: 410px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+        <p>
+          <code>
+            &lt;section class="mb-pl-30 mb-pr-30 mb-mt-15"&gt; <br>
+                &lt;form action=""&gt;<br>
+              &lt;label for="Usuario"&gt;Usuario:&lt;/label&gt;
+              &lt;input type="text" id="Usuario" name="Usuario" required&gt;<br>       
+              &lt;label for="password"&gt;Contraseña:&lt;/label&gt;<br>
+              &lt;input type="password" id="password" name="password" required&gt; <br>   
+                &lt;label for="email"&gt;Email:&lt;/label&gt;
+              &lt;input type="email" id="email" name="email"<br>   required&gt;<br>
+                &lt;label for="fecha"&gt;Fecha:&lt; <br>/label&gt;
+              &lt;input type="date" id="fecha" name="fecha" required&gt
+                &lt;label for="hora"&gt;Hora:&lt;<br>/label&gt;
+              &lt;input type="time" id="hora" name="hora" required&gt;
+                &lt;label for="color"&gt;Color:&lt;<br>/label&gt;
+              &lt;input type="color" id="color" name="color" required&gt;
+                &lt;label for="rango"&gt;Rango:&lt;<br>/label&gt;
+              &lt;input type="range" id="rango" name="rango" required&gt;<br>
+                &lt;label for="telefono"&gt;Telefono:&lt;/label&gt;
+              &lt;input type="tel" id="telefono" name="telefono" required&gt; <br>
+              &lt;input type="submit" value="Enviar"&gt;
+    
+            &lt;/form&gt;
+          &lt;/section&gt;     
+          </code>
+        </p>
+      </div> 
+      </section>
+       <!-- Form 2-->
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15">
+        <body>
+         
+          <form class="formulario" action="#" id="formulario">
+              <div>
+                  <fieldset>
+                      <h2>Contacto</h2>
+                      <span class="required_notification">* Datos requeridos</span></br>
+                      <div>
+                          <label for="nombre">Nombre:</label></br>
+                          <input type="text" name="nombre" placeholder="Nombre" required /></br>
+                      </div>
+                      <div>
+                          <label for="email">Email:</label></br>
+                          <input type="email" name="email" placeholder="example@email.com" required /></br>
+                      </div>
+                      <div>
+                          <label for="website">Sitio web:</label></br>
+                          <input type="url" name="website" placeholder="https://algo.com" required
+                              pattern="(http|https)://.+" /></br>
+                      </div>
+                      <button class="submit" type="submit">Enviar</button></br>
+                  </fieldset>  
+          </form>   
+          
+        </div>
+        <div style="width: 100%; height: 290px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+          <p>
+            <code>
+              &lt;form&gt;<br>
+                &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;<br>
+                &lt;input type="text" id="nombre" name="nombre" required&gt;<br>
+            
+                &lt;label for="apellido"&gt;Apellido:&lt;/label&gt;<br>
+                &lt;input type="text" id="apellido" name="apellido" required&gt;<br>
+            
+                &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+                &lt;input type="email" id="email" name="email" required&gt;<br>
+            
+                &lt;label for="mensaje"&gt;Mensaje:&lt;/label&gt;<br>
+                &lt;textarea id="mensaje" name="mensaje"&gt;&lt;/textarea&gt;<br>
+            
+                &lt;input type="submit" value="Enviar"&gt;
+                
+              &lt;/form&gt;
+              
+            </code>
+          </p>
+        </div> 
+          </body>
+        
+      </section>
+      <section class="mb-pl-30 mb-pr-30 mb-mt-15"> 
+        <form action="">
+          <label for="Usuario">Usuario:</label>
+          <input type="text" id="Usuario" name="Usuario" required>
+            <!--formulario de ingreso de contraseña-->
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required>
+            <!--formulario de ingreso de correo-->
+            <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+            <!--formulario de ingreso de fecha-->
+            <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha" required>
+            <!--formulario de ingreso de hora-->
+            <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora" required>
+            <!--formulario de ingreso de color-->
+            <label for="color">Color:</label>
+          <input type="color" id="color" name="color" required>
+            <!--formulario de ingreso de rango-->
+            <label for="rango">Rango:</label>
+          <input type="range" id="rango" name="rango" required>
+            <!--formulario de ingreso de telefono-->
+            <label for="telefono">Telefono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+          <input type="submit" value="Enviar">
+
+        </form>
+        <div style="width: 100%; height: 550px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+          <p>
+            <code>
+              &lt;form&gt;<br>
+                &lt;label for="Usuario"&gt;Usuario:&lt;/label&gt;<br>
+                &lt;input type="text" id="Usuario" name="Usuario" required&gt;<br>
+                  &lt;!--formulario de ingreso de contraseña--&gt;<br>
+                &lt;label for="password"&gt;Contraseña:&lt;/label&gt;<br>
+                &lt;input type="password" id="password" name="password" required&gt;<br>
+                  &lt;!--formulario de ingreso de correo--&gt;<br>
+                  &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+                &lt;input type="email" id="email" name="email" required&gt;<br>
+                  &lt;!--formulario de ingreso de fecha--&gt;<br>
+                  &lt;label for="fecha"&gt;Fecha:&lt;/label&gt;<br>
+                &lt;input type="date" id="fecha" name="fecha" required&gt;<br>
+                  &lt;!--formulario de ingreso de hora--&gt;<br>
+                  &lt;label for="hora"&gt;Hora:&lt;/label&gt;<br>
+                &lt;input type="time" id="hora" name="hora" required&gt;<br>
+                  &lt;!--formulario de ingreso de color--&gt;<br>
+                  &lt;label for="color"&gt;Color:&lt;/label&gt;<br>
+                &lt;input type="color" id="color" name="color" required&gt;<br>
+                  &lt;!--formulario de ingreso de rango--&gt;<br>
+                  &lt;label for="rango"&gt;Rango:&lt;/label&gt;<br>
+                &lt;input type="range" id="rango" name="rango" required&gt;<br>
+                  &lt;!--formulario de ingreso de telefono--&gt;<br>
+                  &lt;label for="telefono"&gt;Telefono:&lt;/label&gt;<br>
+                &lt;input type="tel" id="telefono" name="telefono" required&gt;<br>
+                &lt;input type="submit" value="Enviar"&gt;<br>
+          
+              &lt;/form&gt;              
+              
+            </code>
+          </p>
+        </div> 
+
+      </section>
+      <br>
+      <section class="mb-pl-30 mb-pr-30">
+
+        <br>
+        <h2><b>Tarjetas</b> </h2>
+        <h2>Diferentes tipos de tarjetas con su documentacion para ser diseñadas por los usuarios
+         </h2> <br>
+        <h3>Tarjeta numero 1 </h3>
+        <p>Esta tarjeta es una simple para brindar informacion</p>
+        <br>
+
+        <div class="mb-border-solid-2px mb-bgblanco-n" style="width: 350px; height: 240px; ">
+          <div class="content ">
+                  <h3>Informacion</h3>
+                  <br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint doloribus eos, iste ab,
+                     at aspernatur enim quaerat veritatis veniam beatae. Nam deserunt officiis numquam?</p><br>
+                  <div class=" mb-flexbox mb-flexbox--justify-center " style="width: auto;"><button class="mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;">Mas info</button></div>
+                  
+          </div>
+        </div> <br>
+        <br><br>
+
+         <h3>Codigo de diseño de la tarjeta numero 1</h3> <br>
+        <div style="width: 100%; height: 380px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+           &lt;div&gt; class="mb-border-solid-2px mb-bgblanco-n" style="width: 350px; height: 240px;" &gt;<br>
+            &lt;div&gt; class="content"&gt; <br>
+               &lt;h3&gt;Informacion&lt;/h3&gt;<br>
+                 <br>&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint doloribus eos, iste ab,
+                   at aspernatur enim quaerat veritatis veniam beatae. Nam deserunt officiis numquam?;p&gt; <br>
+                     <br>&lt;div&gt; class=" mb-flexbox mb-flexbox--justify-center " style="width: auto;"&gt;&lt;button class="mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;">Mas info &lt;button&gt; 
+                        <br>&lt;/div&gt; <br> 
+                             &lt;/div&gt; <br>
+                               &lt;/div&gt; 
+        
+        </code>
+
+        </div>
+        <br>
+        <h2>Tarjeta numero 2 </h2>
+        <p>Esta es una tarjeta de usuario la cual lleva una imagen en la parte superior, lleva diferentes campos para brindar datos y sus diferentes enlaces a redes sociales y un boton para tener mas  informacion del usuario </p>
+        <br>
+        
+        
+        <div class="mb-border-solid-2px mb-bgblanco-n " style="width: 350px; height: 520px;">
+          <div class="content">
+            <img  src="/Componentes/img/3.jpg" style="width: 347px; height: 200px;" alt="">
+            <div class="datos mb-ml-14 mb-letraf-negro">
+              
+                <h3 >Datos</h3>
+                 <p >Nombre: <br>
+                     Apellidos: <br>
+                    Cargo: <br>
+                    Dirección: Calle 123, Ciudad, País</p> <br> 
+
+              </div>
+              
+              <hr>
+              <p class="mb-ml-14 mb-letraf-negro">Redes sociales: </p>
+                <a href="#"><i class="fa-brands fa-facebook mb-ml-50"></i><br></a> 
+                <a href="#"><i class="fa-brands fa-linkedin mb-ml-50"></i></a><br>
+                <a href="#"><i class="fa-brands fa-instagram mb-ml-50"></i></a>
+            <div class="btn-container"><br><hr>
+              <div class=" mb-flexbox mb-flexbox--justify-center mb-mt-20 " style="width: auto;">
+                <button class="mb-bggris-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;">Mas info</button></div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+
+
+        <h3>Codigo de diseño de la tarjeta numero 2</h3> <br>
+        <div style="width: 100%; height: 500px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+           &lt;div&gt; class="mb-border-solid-2px mb-bgblanco-n " style="width: 350px; height: 520px;" &gt;<br>
+            &lt;div&gt; class="content"&gt; <br>
+               &lt;img  src="./3.jpg" style="width: 347px; height: 200px;" alt=""&gt;<br>
+               &lt;div&gt;class="datos mb-ml-14 mb-letraf-negro"  &gt;<br>
+                     &lt;h3&gt;Datos&lt/h3&gt;  <br>
+                               &lt;p&gt;Nombre:  <br>
+                               Apellidos: <br>
+                               Cargo &lt;/p&gt; <br>
+                               Dirección: Calle 123, Ciudad, País &lt;/p&gt; <br>
+                               &lt;/div&gt; <br>
+                               &lt;hr&gt; <br>
+
+                               &lt;p&gt;class="class="mb-ml-14 mb-letraf-negro">Redes sociales:" &lt;/p&gt;<br>
+                               &lt;a href="#"&gt; &lt;iclass="class="fa-brands fa-facebook mb-ml-50"&lt;/a&gt;<br>
+                               &lt;a href="#"&gt; &lt;iclass="class="fa-brands fa-linkedin mb-ml-50"&lt;/a&gt;<br>
+                               &lt;a href="#"&gt; &lt;iclass="class="fa-brands fa-instagram mb-ml-50"&lt;/a&gt;<br>
+                               &lt;div class"btn-container&gt; <br>
+
+                               &lt;hr&gt; <br>
+
+                               &lt;div class=" mb-flexbox mb-flexbox--justify-center mb-mt-20 " style="width: auto;"&gt; &lt;button class="mb-bggris-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;" &gt;Ma info &lt;/button&gt;&lt;/div&gt; <br> 
+                               &lt;/div&gt; <br>
+                               &lt;/div&gt; <br>
+                               &lt;/div&gt; <br>
+
+        </code>
+
+        </div>
+        <br> <br>
+
+        <h2>Tarjeta numero 3</h2>
+        <p>Esta tarjeta contiene una imagen a un costado ala par infromacion son un boton el cual puede llevar a mas informacion</p> <br>
+
+        <div class="mb-border-solid-1px mb-bggris-n mb-letraf-negro" style="width: 478px; height: 250px;">
+          <div class="content" style="display: flex;">
+            <img src="/Componentes/img/2.jpg" style="width: 155px; height: 250px;" >
+            <div style="margin-left: 20px;">
+              <h3>  Informacion</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint doloribus eos, iste ab,
+                   at aspernatur enim quaerat veritatis veniam beatae. Nam deserunt officiis numquam?</p>
+                <div class=" mb-flexbox mb-flexbox--justify-center " style="width: auto;"><button class="mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;">Mas info</button></div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        
+        <h3>Codigo de diseño de la tarjeta numero 3</h3> <br>
+        <div style="width: 100%; height: 410px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+
+          &lt;div class="mb-border-solid-1px mb-bggris-n mb-letraf-negro" style="width: 478px; height: 250px;"&gt; <br>
+          &lt;div class="content" style="display: flex;" class=&gt; <br>
+          &lt;img src"" style="display: flex;" &gt; <br>
+          &lt;div style="margin-letf: 20px" &gt; <br>
+          &lt;h3&gt Informacion&lt;/h3&gt; <br>
+          &lt;p&gt Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint doloribus eos, iste ab,
+          at aspernatur enim quaerat veritatis veniam beatae. Nam deserunt officiis numquam?&lt;/p&gt <br>
+          &lt;div class=" mb-flexbox mb-flexbox--justify-center " style="width: auto;"&gt&lt;mb-bgrojom-n  mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20" style="width: 100px; height: 30px;"&gtMas info&lt;/button&gt;&lt;/div&gt; <br>
+          
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+
+        </code>
+        </div>
+        <br><br>
+
+        <h2>Tarjeta con efecto</h2> <br>
+        <p>Esta tarjeta es con efecto giratorio, la parte trase lleva texto la cual puede servir para dar informacion de alagun tipo de vento</p>
+             <br>
+        <div class="card">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front mb-flexbox mb-flexbox--align-center mb-flexbox--justify-center"  style="background-image: url('/Componentes/img/4.png');"></div>
+                <div class="flip-card-back">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, eos totam ipsam quidem tenetur culpa rerum modi. 
+                    Tempore consequuntur totam possimus corporis nesciunt minus recusandae sed quas fugit necessitatibus. Non.
+                    <a  href="#" class="btn">Mas Informacion</a>
+                </div>
+              </div>
+            </div>
+         </div>
+
+         <br><br>
+         <h3>Codigo de diseño de la tarjeta con efecto hover</h3> <br>
+         <div style="width: 100%; height: 350px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+
+         <code >
+          &lt;div class="card"&gt; <br>
+          &lt;div class="fli-card-inner"&gt; <br>
+          &lt;div class="fli-card-front" style"background-image: url('./.png');"&gt;&lt;/div&gt; <br>
+          &lt;div class="flip-card-back"&gt; <br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae optio, ducimus, commodi quas eum sunt hic
+          ipsum dolore facere dicta quidem incidunt tempore ullam sapiente molestias, totam cumque sit ipsam. <br>
+          &lt;a  href="#" class="btn"Mas Infromacion&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
+
+         </code>
+
+         </div>
+
+         <br><br>
+
+         <h2>Alertas</h2> 
+         <h2>Diferentes alertas con su documentacion para ser diseñadas por los usuarios
+        </h2> <br>
+
+           <h2>Alerta 1</h2>
+           <p>Esta es una alerta basica la cual nos envia un mensaje</p> <br>
+
+          <div class="mb-border-solid-1px mb-bgrojo-f" style="width: 350px; height: 100px;">
+            <p class="mb-ml-100 mb-mt-25">Cargado con exito</p>
+         </div>
+           <br><br>
+
+           <h3>Codigo de diseño de la alerta 1</h3> <br>
+
+           <div style="width: 100%; height: 220px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+           <code>
+            &lt;div class="mb-border-solid-1px mb-bgrojo-f" style="width: 350px; height: 100px;"&gt; <br>
+            &lt;p class="mb-ml-100 mb-mt-25">Cargado con exito&lt;/p&gt <br>
+            &lt;/div&gt
+            
+           </code>
+
+           </div>
+            <br><br>
+
+            <h2>Alerta 2</h2>
+           <p>Esta es una alerta la cual lleva un icono con un mensaje de alerta de problema con dos botones, un boton sirve para ver el problema y otro para cerra la alerta</p> <br>
+          
+           <div class="mb-border-solid-1px mb-bgceleste-f" style="width: 250px; height: 100px;">
+            <i class="fa-solid fa-triangle-exclamation mb-ml-100 mb-mt-10"></i>
+            <p class="mb-ml-55">Alerta de problema</p>
+            <button class="mb-ml-25">Ver Problema</button>
+            <button class="mb-ml-30">Cerrar</button>
+        </div>
+        <br><br>
+
+        <h3>Codigo de diseño de la alerta 2</h3> <br>
+        <div style="width: 100%; height: 230px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+
+        <code>
+          &lt;div class="mb-border-solid-1px mb-bgceleste-f" style="width: 250px; height: 100px;"> <br>
+          &lt;p class="fa-solid fa-triangle-exclamation mb-ml-100 mb-mt-10">&lt;/p&gt; <br>
+          &lt;button class="mb-ml-25">Ver Problema&lt;/p&gt; <br>
+          &lt;button class="mb-ml-30">Cerrar&lt;/p&gt;
+          &lt;/div&gt
+
+        </code>
+      </div>
+      <br><br>
+        
+      <h2>Alerta 3</h2>
+      <p>Esta es una alerta con un borde diseñado con las clases de la libreria MBros la cual lleva un mensaje de confiramcion con dos botones uno de aceptar y el otro de cancelar</p>
+       
+      <div class="mb-border-solid-1px mb-bgverde-n mb-border-dotted-5px" style="width: 250px; height: 100px;">
+          <p class="mb-ml-50">Esta es una alerta de confiramcion</p>
+          <button class="mb-ml-25">Confirmar</button>
+          <button class="mb-ml-30">Cancelar</button>
+      </div>
+      <br><br>
+
+      <h3>Codigo de diseño de la alerta 3</h3> <br>
+      <div style="width: 100%; height: 230px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+         
+         <code>
+          &lt;div class="mb-border-solid-1px mb-bgverde-n mb-border-dotted-5px" style="width: 250px; height: 100px;"><br>
+          &lt;p class="mb-ml-50">Esta es una alerta de confiramcion&lt;/p&gt; <br>
+          &lt;button class="mb-ml-25">Confirmar&lt;/p&gt; <br>
+          &lt;button class="mb-ml-30">Cancelar&lt;/p&gt; <br>
+          &lt;/div&gt
+
+        </code>
+        </div>
+        <br><br>
+
+        <h2>Alerta 4</h2>
+        <p>Esta es una alerta de anuncio diseñado con un borde inset de las clases de la libreria MBros la cual llevas dos botones una para ver anuncio otro para cerrar</p>
+        <br>
+      <div class="mb-border-solid-1px mb-bgazul-n mb-border-inset-4px" style="width: 250px; height: 100px;">
+        <p class="mb-ml-65">Esta es una alerta de anuncios</p>
+        <button class="mb-ml-14">Ver anuncio</button>
+        <button class="mb-ml-50">Cerrar</button>
+    </div>
+    <br><br>
+    
+    <h3>Codigo de diseño de la alerta 4</h3> <br>
+    <div style="width: 100%; height: 230px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+     
+     <code>
+      &lt;div class="mb-border-solid-1px mb-bgazul-n mb-border-inset-4px" style="width: 250px; height: 100px;"><br>
+          &lt;p class="mb-ml-65">Esta es una alerta de anuncios&lt;/p&gt; <br>
+          &lt;button class="mb-ml-15">Ver anuncio&lt;/p&gt; <br>
+          &lt;button class="mb-ml-50">Cerrar&lt;/p&gt; <br>
+          &lt;/div&gt
+
+     </code>
+    </div>
+    <br><br>
+      <!-- aca iniccian las barras de navegacion -->
+      <section class="mb-pl-30 mb-pr-30">
+        <h2>Barras de Navegacion</h2> <br>
+        <P>Para poder usar esta barra de navegacion tenemos que copiar todos los subcomponentes que muestra aca ya que ya que entre todos forman el navbar mostrado</P>
+        <br> 
+        <div class="container1" >
+          <div class="img1"></div>
+    
+          <div class="navegador1"> 
+            <nav class="navbar1">
+              <ul class="navbar-nav1">
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Inicio</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Acerca de</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Servicios</a>
+                </li>
+                <li class="nav-item1">
+                  <a href="#" class="nav-link1">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <br><br>
+
+        <div style="width: 100%; height: 450px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-30">
+          <code>
+            &lt;div class="container1" ><br>
+                &lt;div class="img1"&gt;&lt;/div&gt; <br>
+        
+                 &lt;div class="navegador1"&gt; <br>
+                 &lt;nav class="navbar1"&gt; <br>
+              &lt;ul class="navbar-nav1"&gt; <br>
+              &lt;li class="nav-item1"&gt; <br>
+              &lt;a href="#" class="nav-link1"&gt;Inicio&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;li class="nav-item1"&gt; <br>
+              &lt;a href="#" class="nav-link1"&gt;Acerca de&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;li class="nav-item1"> <br>
+              &lt;a href="#" class="nav-link1"&gt;Servicios&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;li class="nav-item1"&gt; <br>
+              &lt;a href="#" class="nav-link1"&gt;Contacto&lt;/a &gt; <br>
+              &lt;/li &gt; <br>
+              &lt;/ul &gt; <br>
+              &lt;/nav &gt; <br>
+              &lt;/div &gt; <br>
+              &lt;/div &gt;
+            
+          </code>
+        </div>
+
+      </section>
+      <br><br>
+      <section class="mb-pl-30 mb-pr-30">
+        <nav class="mb-border-solid-4px mb-bgverde-f " >
+        
+          <ul class="mb-border-solido-1px  mb-flexbox mb-flexbox--justify-between mb-mr-15 " >
+  
+            <form class=" mb-mt-35 mb-inline">
+              <button style="height: 40px;" class="  " type="submit">Buscar</button>
+              <input style="height: 40px;" type="search" placeholder="buscar">
+            </form> 
+  
+            <li class=" mb-inline   mb-flexbox  mb-flexbox mb-flexbox--aling-center mb-mt-70 mb-mr-20" >
+              <a href="#" class="mb-inline mb-sub-none"><p class="mb-font-Verdana-25px  ">inicio</p></a>
+            </li>
+            <li class=" mb-inline mb-mt-70 mb-mr-20">
+              <a href="#" class="mb-inline mb-sub-none"><p class="mb-font-Verdana-25px">Acerca de </p></a>
+            </li>
+            <li class=" mb-inline mb-mt-70 mb-mr-20">
+              <a href="#" class="nav-link mb-sub-none"><p class="mb-font-Verdana-25px">servicios</p></a>
+            </li>
+            <li class="mb-inline mb-mt-70 mb-mr-20 " >
+              <a href="#" class="nav-link mb-sub-none"><p class="mb-font-Verdana-25px">Contacto</p></a>
+            </li>   
+          </ul>
+        </nav>  
+        <br><br>
+        <div   style="width: 100%; height: 500px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+          <code>
+            &lt;nav class="mb-border-solid-4px mb-bgverde-f " > <br>
+        
+            &lt;ul class="mb-border-solido-1px  mb-flexbox mb-flexbox--justify-between mb-mr-15 " > <br>
+      
+            &lt;form class=" mb-mt-35 mb-inline"> <br>
+            &lt;button style="height: 40px;" class="  " type="submit">Buscar&lt;/button> <br>
+            &lt;input style="height: 40px;" type="search" placeholder="buscar"> <br>
+            &lt;/form> <br>
+      
+            &lt;li class=" mb-inline   mb-flexbox  mb-flexbox mb-flexbox--aling-center mb-mt-70 mb-mr-20" > <br>
+            &lt;a href="#" class="mb-inline mb-sub-none">&lt;p class="mb-font-Verdana-25px  ">inicio&lt;/p>&lt;/a> <br>
+            &lt;/li> <br>
+            &lt;li class=" mb-inline mb-mt-70 mb-mr-20"> <br>
+            &lt;a href="#" class="mb-inline mb-sub-none">&lt;p class="mb-font-Verdana-25px">Acerca de &lt;/p>&lt;/a> <br>
+            &lt;/li> <br>
+            &lt;li class=" mb-inline mb-mt-70 mb-mr-20"> <br>
+            &lt;a href="#" class="nav-link mb-sub-none">&lt;p class="mb-font-Verdana-25px">servicios&lt;/p>&lt;/a> <br>
+            &lt;/li> <br>
+            &lt;li class="mb-inline mb-mt-70 mb-mr-20 " > <br>
+            &lt;a href="#" class="nav-link mb-sub-none">&lt;p class="mb-font-Verdana-25px">Contacto&lt;/p>&lt;/a> <br>
+            &lt;/li>   <br>
+            &lt;/ul> <br>
+            &lt;/nav>  <br>
+            
+          </code>
+
+          
+        </div>
+      </section>
+      <!-- inicializacion de badges -->
+      <section class="mb-pl-30 mb-pr-30" >
+        <br>
+        <h2>Badges</h2><br>
+        <p>Realizacion de difrentes tipos de badges personalizados para dichas utilizacion.</p>
+        <br>
+        <h2>badges de heading usando los titulos de h2 a h6 (tamaños)</h2>
+        <br>
+        <h2 class="badge-secondary">Example heading Secundario</h2>
+        <h2 class="badge-info">Example heading Información</h2>
+        <h3 class="badge">Example heading Predeterminado</h3>
+        <h3 class="badge-danger">Example heading Peligro</h3>
+        <h4 class="badge-primary">Example heading Primario</h4>
+        <h5 class="badge-success">Example heading Éxito</h5>
+        <br>
+        <div   style="width: 100%; height: 150px; background-color: black;"  class="mb-flexbox mb-flexbox--justify-center mb-flexbox--align-center mb-brpx-20">
+          <code>
+            &lt;h2 class="badge-secondary">Example heading Secundario &lt;/h2 &gt;<br>
+            &lt;h2 class="badge-info">Example heading Información &lt;/h2 &gt; <br>
+            &lt;h3 class="badge">Example heading Predeterminado &lt;/h3 &gt; <br>
+            &lt;h3 class="badge-danger">Example heading Peligro &lt;/h3 &gt; <br>
+            &lt;h4 class="badge-primary">Example heading Primario &lt;/h4 &gt; <br>
+            &lt;h5 class="badge-success">Example heading Éxito &lt;/h5 &gt; <br>
+            
+          </code>
+        </div>
+      
+      </section>
+      <br>
+
       <section>
         
       </section>
@@ -142,7 +808,6 @@
         </ul>
       </section>
 
-    </aside> 
     </aside> 
   </div>  
 
