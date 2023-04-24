@@ -17,7 +17,8 @@ Implemeacion en desarrols externos:
  La libreria MBbros esta es 
 
 
-<button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" style="height: 40px; width: 180px; cursor:pointer">NORMAL</button>  
+<button class="mb-bgamarillo-s mb-brpx-25 mb-letraf-blanco mb-font-Verdana-15px" style="height: 40px; width: 180px; cursor:pointer">NORMAL</button> 
+
 
 
 Este código HTML define un botón con las siguientes características:
