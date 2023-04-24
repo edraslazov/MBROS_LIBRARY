@@ -1,3 +1,44 @@
+//colores para navbar
+$mb-navbar-negro: #0000;
+$mb-navbar-celest:#049CD8;
+$mb-navbar-amarillo:#fbd000;
+$mb-navbar-rojo:#e52521;
+$mb-navbar-verde:#43b047;
+
+//BG
+.mb-bgnav-negro{
+    background-color: $mb-navbar-negro;
+}
+.mb-bgnav-celest{
+   background-color: $mb-navbar-celest;
+}
+.mb-bgnav-amarillo{
+    background-color: $mb-navbar-amarillo;
+ }
+ .mb-bgnav-rojo{
+    background-color: $mb-navbar-rojo;
+ }
+ .mb-bgnav-verde{
+    background-color: $mb-navbar-verde;
+ }
+
+ //LETRA
+ .mb-letnav-negro{
+    color: $mb-navbar-negro;
+}
+.mb-letnav-celest{
+   color: $mb-navbar-celest;
+}
+.mb-letnav-amarillo{
+    color: $mb-navbar-amarillo;
+ }
+ .mb-letnav-rojo{
+    color: $mb-navbar-rojo;
+ }
+ .mb-letnav-verde{
+    color: $mb-navbar-verde;
+ }
+
 //COLORES SUAVES
 $mb-suave1:rgb(192, 88, 88);
 $mb-suave2: rgb(185, 232, 135);
@@ -5,7 +46,7 @@ $mb-suave3: rgb(253, 229, 136);
 $mb-suave4: rgb(227, 134, 217);
 $mb-suave5: rgb(109, 223, 233);
 //COLORES FUERTES
-$mb-fuerte1:rgb(255, 0, 0);
+$mb-fuerte1:rgb(201, 44, 44);
 $mb-fuerte2: rgb(0, 255, 0);
 $mb-fuerte3: rgb(255, 255, 0);
 $mb-fuerte4: rgb(255, 0, 255);

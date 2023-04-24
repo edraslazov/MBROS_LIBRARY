@@ -12363,12 +12363,52 @@
   list-style-type: none;
 }
 
+.mb-bgnav-negro {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mb-bgnav-celest {
+  background-color: #049CD8;
+}
+
+.mb-bgnav-amarillo {
+  background-color: #fbd000;
+}
+
+.mb-bgnav-rojo {
+  background-color: #e52521;
+}
+
+.mb-bgnav-verde {
+  background-color: #43b047;
+}
+
+.mb-letnav-negro {
+  color: rgba(0, 0, 0, 0);
+}
+
+.mb-letnav-celest {
+  color: #049CD8;
+}
+
+.mb-letnav-amarillo {
+  color: #fbd000;
+}
+
+.mb-letnav-rojo {
+  color: #e52521;
+}
+
+.mb-letnav-verde {
+  color: #43b047;
+}
+
 .mb-bg-celeste {
   background-color: rgb(0, 255, 255);
 }
 
 .mb-letraf-rojo {
-  color: rgb(255, 0, 0);
+  color: rgb(201, 44, 44);
 }
 
 .mb-letraf-verde {
@@ -12420,7 +12460,7 @@
 }
 
 .mb-bgrojo-f {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(201, 44, 44);
 }
 
 .mb-bgverde-f {
