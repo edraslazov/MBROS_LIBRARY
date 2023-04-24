@@ -12,7 +12,6 @@ Andres Isai Vasquez Vasquez VV18009
 Implemeacion en desarrols externos:
 
 
-![unnamed](https://user-images.githubusercontent.com/117502426/233875095-91593f48-7279-44b4-88eb-9982ec818820.png)
 
  La libreria MBbros es una libreria creada a nuestra creatividad, inspirandonos en los colores del mundo de Mario Bros.
  En ella se esncuentran clases para crear elementos, ala vez clases utilarias la cual modifica, crea, para colores etc.
