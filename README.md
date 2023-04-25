@@ -8,6 +8,27 @@
 - Versión del proyecto
 - Versión 1.0
 
+Libreria pensada para el estudio de los componentes de CSS y HTML, la cual fue hecha con tematica de MARIO-BROS, teniendo así una librería creativa dónde podremos aprender mas de la documentación principal de CSS y HTML.
+
+ La libreria MBbros es una libreria creada a nuestra creatividad, inspirandonos en los colores del mundo de Mario Bros.
+ En ella se esncuentran clases para crear elementos, ala vez clases utilarias la cual modifica, crea, para colores etc.
+ 
+ Para poder implementar su libreria en su entorno de desarrollador debe seguir los siguientes pasos:
+ GIT
+ 
+  - Inicie sesion en GitHub
+ - Dirigase a su consola GIT - BASH y coloque el codigo que se muestra a continuacion 
+ 
+ 
+ ``git clone https://github.com/usuario/MBROS_LIBRARY``
+ 
+ - En breve se clonara el repositorio para que lo pueda usar en su entorno de desarrollo
+ 
+ Para poder visualizarlo desde su dispositivo debe ingresar al enlace del repositorio que se presenta a continuacion: 
+ 
+ `` https://edraslazov.github.io/MBROS_LIBRARY/``
+
+
 A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 
 
@@ -43,25 +64,7 @@ A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 # TARJETAS
 ![fe1510f1-e548-4be9-ace8-584a938f6763](https://user-images.githubusercontent.com/117502426/234310791-6028bf5c-40ff-48b6-8fe8-739a44e38062.jpg)
 
-Libreria pensada para el estudio de los componentes de CSS y HTML, la cual fue hecha con tematica de MARIO-BROS, teniendo así una librería creativa dónde podremos aprender mas de la documentación principal de CSS y HTML.
 
- La libreria MBbros es una libreria creada a nuestra creatividad, inspirandonos en los colores del mundo de Mario Bros.
- En ella se esncuentran clases para crear elementos, ala vez clases utilarias la cual modifica, crea, para colores etc.
- 
- Para poder implementar su libreria en su entorno de desarrollador debe seguir los siguientes pasos:
- GIT
- 
-  - Inicie sesion en GitHub
- - Dirigase a su consola GIT - BASH y coloque el codigo que se muestra a continuacion 
- 
- 
- ``git clone https://github.com/usuario/MBROS_LIBRARY``
- 
- - En breve se clonara el repositorio para que lo pueda usar en su entorno de desarrollo
- 
- Para poder visualizarlo desde su dispositivo debe ingresar al enlace del repositorio que se presenta a continuacion: 
- 
- `` https://edraslazov.github.io/MBROS_LIBRARY/``
  
  
 ##DESCRIPCION DE USO DE LIBREIA
