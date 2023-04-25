@@ -85,7 +85,8 @@ A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 
 
 # INICIO
-![5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf](https://user-images.githubusercontent.com/117502426/234310584-cda24094-397b-4f24-a707-ad166cda15fa.jpg)
+![5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf](https://user-images.githubusercontent.com/117502426/234311220-c8ac2c0d-7187-4a40-b97c-d3ed50ec3cf4.jpg)
+
 
 
 
