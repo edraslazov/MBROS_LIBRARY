@@ -8,6 +8,41 @@
 - Versión del proyecto
 - Versión 1.0
 
+A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
+
+
+# INICIO
+![5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf](https://user-images.githubusercontent.com/117502426/234311220-c8ac2c0d-7187-4a40-b97c-d3ed50ec3cf4.jpg)
+
+
+
+
+
+# FLEXBOX-END
+![1db162d3-8502-45b0-8e72-1ee70421457f](https://user-images.githubusercontent.com/117502426/234310450-e3216e11-1524-48ef-b5e5-3cc0dd57efec.jpg)
+
+
+
+
+# BARRAS DE NAVEGACION
+![214c3be6-9ac4-438e-af31-a57119996a71](https://user-images.githubusercontent.com/117502426/234310519-6f7c701d-e065-4b38-8019-c287a93718a1.jpg)
+
+
+
+
+# ALERTAS
+![4cdc4760-0f87-4013-8ea9-b16f117f6001](https://user-images.githubusercontent.com/117502426/234310671-718f8fa3-16ac-4344-a9e0-39737939fad5.jpg)
+
+
+
+# BADGES
+![a5ea559a-7fb1-41a9-b71a-4bcd2005286a](https://user-images.githubusercontent.com/117502426/234310728-0cec5917-fce0-451a-88c9-3f9efeed7046.jpg)
+
+
+
+# TARJETAS
+![fe1510f1-e548-4be9-ace8-584a938f6763](https://user-images.githubusercontent.com/117502426/234310791-6028bf5c-40ff-48b6-8fe8-739a44e38062.jpg)
+
 Libreria pensada para el estudio de los componentes de CSS y HTML, la cual fue hecha con tematica de MARIO-BROS, teniendo así una librería creativa dónde podremos aprender mas de la documentación principal de CSS y HTML.
 
  La libreria MBbros es una libreria creada a nuestra creatividad, inspirandonos en los colores del mundo de Mario Bros.
@@ -81,40 +116,7 @@ Una de las caracteristicas importantes de esta pagina web, es que podemos visual
 Clases utilitarias: 
 Las clases utilitarias usadas estan llamadas directamente en la carpeta "Estilos", dentro de la librería, donde se uso una gran variedad de clases para poder llegar a tener la pagina web que observaran.
 
-A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 
-
-# INICIO
-![5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf](https://user-images.githubusercontent.com/117502426/234311220-c8ac2c0d-7187-4a40-b97c-d3ed50ec3cf4.jpg)
-
-
-
-
-
-# FLEXBOX-END
-![1db162d3-8502-45b0-8e72-1ee70421457f](https://user-images.githubusercontent.com/117502426/234310450-e3216e11-1524-48ef-b5e5-3cc0dd57efec.jpg)
-
-
-
-
-# BARRAS DE NAVEGACION
-![214c3be6-9ac4-438e-af31-a57119996a71](https://user-images.githubusercontent.com/117502426/234310519-6f7c701d-e065-4b38-8019-c287a93718a1.jpg)
-
-
-
-
-# ALERTAS
-![4cdc4760-0f87-4013-8ea9-b16f117f6001](https://user-images.githubusercontent.com/117502426/234310671-718f8fa3-16ac-4344-a9e0-39737939fad5.jpg)
-
-
-
-# BADGES
-![a5ea559a-7fb1-41a9-b71a-4bcd2005286a](https://user-images.githubusercontent.com/117502426/234310728-0cec5917-fce0-451a-88c9-3f9efeed7046.jpg)
-
-
-
-# TARJETAS
-![fe1510f1-e548-4be9-ace8-584a938f6763](https://user-images.githubusercontent.com/117502426/234310791-6028bf5c-40ff-48b6-8fe8-739a44e38062.jpg)
 
 
 
