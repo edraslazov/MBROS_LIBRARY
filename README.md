@@ -85,23 +85,37 @@ A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 
 
 # INICIO
-![img](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf.jpg?raw=true)
+![5ad63907-b5e5-4f0e-bc9f-2b3e348bc3cf](https://user-images.githubusercontent.com/117502426/234310584-cda24094-397b-4f24-a707-ad166cda15fa.jpg)
+
+
+
 
 # FLEXBOX-END
-![](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/1db162d3-8502-45b0-8e72-1ee70421457f.jpg?raw=true "imagen/flexbox")
+![1db162d3-8502-45b0-8e72-1ee70421457f](https://user-images.githubusercontent.com/117502426/234310450-e3216e11-1524-48ef-b5e5-3cc0dd57efec.jpg)
+
+
+
 
 # BARRAS DE NAVEGACION
+![214c3be6-9ac4-438e-af31-a57119996a71](https://user-images.githubusercontent.com/117502426/234310519-6f7c701d-e065-4b38-8019-c287a93718a1.jpg)
 
-![](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/214c3be6-9ac4-438e-af31-a57119996a71.jpg?raw=true)
+
+
 
 # ALERTAS
-![ ](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/4cdc4760-0f87-4013-8ea9-b16f117f6001.jpg?raw=true " ")
+![4cdc4760-0f87-4013-8ea9-b16f117f6001](https://user-images.githubusercontent.com/117502426/234310671-718f8fa3-16ac-4344-a9e0-39737939fad5.jpg)
+
+
 
 # BADGES
-![](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/a5ea559a-7fb1-41a9-b71a-4bcd2005286a.jpg?raw=true " ")](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/a5ea559a-7fb1-41a9-b71a-4bcd2005286a.jpg?raw=true " ")
+![a5ea559a-7fb1-41a9-b71a-4bcd2005286a](https://user-images.githubusercontent.com/117502426/234310728-0cec5917-fce0-451a-88c9-3f9efeed7046.jpg)
+
+
 
 # TARJETAS
-![](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/fe1510f1-e548-4be9-ace8-584a938f6763.jpg?raw=true)
+![fe1510f1-e548-4be9-ace8-584a938f6763](https://user-images.githubusercontent.com/117502426/234310791-6028bf5c-40ff-48b6-8fe8-739a44e38062.jpg)
+
+
 
 
 ##DESCRIPCION DE USO DE LIBREIA
