@@ -65,7 +65,11 @@ A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 ![fe1510f1-e548-4be9-ace8-584a938f6763](https://user-images.githubusercontent.com/117502426/234310791-6028bf5c-40ff-48b6-8fe8-739a44e38062.jpg)
 
 
- 
+         
+Una de las caracteristicas importantes de esta pagina web, es que podemos visualizar y ejemplificar codigo en la pagina, a continuacion se presentan los disntintos temas aplicados .
+
+Clases utilitarias: 
+Las clases utilitarias usadas estan llamadas directamente en la carpeta "Estilos", dentro de la librería, donde se uso una gran variedad de clases para poder llegar a tener la pagina web que observaran.
  
 ## DESCRIPCION DE USO DE LIBRERIA
                     
@@ -185,11 +189,7 @@ Formulario
         </form>
         ```
         
-        
-Una de las caracteristicas importantes de esta pagina web, es que podemos visualizar y ejemplificar codigo en la pagina, a continuacion se presentan los disntintos temas aplicados .
 
-Clases utilitarias: 
-Las clases utilitarias usadas estan llamadas directamente en la carpeta "Estilos", dentro de la librería, donde se uso una gran variedad de clases para poder llegar a tener la pagina web que observaran.
 
 
 
