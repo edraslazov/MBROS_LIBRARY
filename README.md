@@ -104,6 +104,69 @@ A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 ![](https://github.com/edraslazov/MBROS_LIBRARY/blob/main/laboratorio/Componentes/img/fe1510f1-e548-4be9-ace8-584a938f6763.jpg?raw=true)
 
 
+##DESCRIPCION DE USO DE LIBREIA
+                    
+Libreria botones  | Definicion
+------------- | -------------
+mb-btn1  | Boton de tipo peqeño
+mb-btn2  | Boton de tipo mediano
+mb-btn3  | Boton de tipo normal
+mb-btn4  | Boton de tipo grande
+
+
+
+|                                      Tarjetas y alertas  
+| ------------- 
+| Se crearon mediante las clases definidas en nuestra libreria|
+
+|                                    Barras de navegacion 
+| ------------- 
+| Se crearon mediante las clases definidas en nuestra libreria|
+
+Libreria badges    | Definicion
+-------------      | -------------
+badges-secondary  | es utilizada en el badges de tipo titulo
+badges-button1  | es utilizada en el badges de tipo boton con notificacion
+badges-espacio-badges-primary -pill  | se manda a llamar el badge pill o tipo pastilla 
+
+Libreria Modificacion de tamañy grosor de texto | Definicion
+------------- | -------------
+mb-fun-10  | Hace referencia al tamaño 10, la cual se puede utilizar llamando otros tipos de numeros segun el requerimiento que se desee
+
+Libreria asignar sombras    | Definicion
+-------------      | -------------
+mb-heavy-shadow  | se utilza para sombrear los elementos con el elementos shadow
+mb-shadow-10px | Ambas se utilizan para crear sombras, el px que observamos es para hacer referencia al tamaño del sombreado que necesite. Nota: no necesariamente se  tiene que colocar el px.
+
+Libreria margin   | Definicion
+-------------      | -------------
+mb-m-, mb-mt-, mb-mr-, mb-mb-, mb-ml-  | Clases que se utilizaran para colocar los margin, podra usarse mediante las clases, y asignando un numero despues del guion de la clase para definir su tamaño
+
+Libreria padding   | Definicion
+-------------      | -------------
+mb-p-, mb-pt-, mb-pr-, mb-pb-, mb-pl| Clases que se utilizaran para colocar los padding, podra usarse mediante las clases, y asignando un numero despues del guion de la clase para definir su tamaño
+
+Libreria border   | Definicion
+-------------      | -------------
+mb-border-: solid, dashed, dotted, double, groove | Para utilizar cada border se tiene que inicializar con mb-border, un ejemplo seria este: mb-border-double; 
+
+Libreria Flexbox  | Definicion
+-------------      | -------------
+mb-Flexbox  | Inicializa la clase Flexbox, donde utilizamos align items y justify content, usandose como mb-Flexbox la clase principal para poder llamar las subclases que se encuentran dentro
+
+Libreria RedondearElementos | Definicion
+-------------      | -------------
+mb-br-, mb-brpx-  | Donde tenemos mb-br-, se utiliza mediante porcentajes, y mb-brpx se utiliza mediante pixeles que se pueden colocar segun medida que se requiera
+
+Libreria OcultarElementos | Definicion
+-------------      | -------------
+mb-high, mb-invisble, mb-inline | Se utiliza para ocultar elementos, para omitir enlaces, y quitar bordes, y quitar elementos y que se mantenga el espacio asignado
+   mb-none-cir  mb-sub-none |  Se utiliza para ocultar elementos, para omitir enlaces, y quitar bordes, y quitar elementos y que se mantenga el espacio asignado
+   
+  Libreria colores  | Definicion
+-------------     | -------------
+mb-letraf-rojo     | Ejemplo de clase utilizando el color rojo, se le ira dando el color segun la clase que se decida, y se define si es neutro, fuerte o suave, segun las iniciales, en este apartado es especificicamente para letra 
+mb-bg-rojo-s    | Ejemplo de clase utilizando el color rojo, se le ira dando el color segun la clase que se decida, y se define si es neutro, fuerte o suave, segun las iniciales, en este apartado es especificicamente para background.
 
 
 #  INTEGRANTES: 
