@@ -67,7 +67,7 @@ A continuacion se presentaran una seria de ejemplos con su respectivo codigo:
 
  
  
-##DESCRIPCION DE USO DE LIBREIA
+##DESCRIPCION DE USO DE LIBRERIA
                     
 Libreria botones  | Definicion
 ------------- | ----------------
